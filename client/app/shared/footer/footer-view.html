@@ -1,0 +1,16 @@
+<footer class="footer">
+  <div class="scroll-top" scroll-on-click="#header" >
+    <i class="icon-top"></i>
+  </div>
+  <div class="row">
+    <div class="pull-right col-xs-12 col-sm-6">
+      <ul>
+          <li ng-repeat="link in navLinks">
+              <a ng-href="{{'#/' + link.href}}">{{link.title}}</a>
+          </li>
+      </ul>
+    </div>
+
+    <div class="copy-text col-xs-12 col-sm-6">&copy; 2014 Deutsche Postbank AG</div>
+  </div>
+</footer>

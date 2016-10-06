@@ -1,0 +1,16 @@
+<form ng-action="save()">
+  <p>Sie haben eine Frage oder Anmerkung?<br>
+Ich freue mich auf Ihre Nachricht.</p>
+  <div class="form-group">
+      <input type="text" placeholder="Ihr Name" ng-model="form.name" class="form-control">
+  </div>
+  <div class="form-group">
+      <input type="email" placeholder="Ihr E-Mail-Adresse" ng-model="form.email" class="form-control">
+  </div>
+  <div class="form-group">
+      <textarea placeholder="Ihre Nachricht" ng-model="form.text" class="form-control"></textarea>
+  </div>
+  <div class="btn-holder">
+      <button class="btn btn-primary" ng-click="save()">Absenden</button>
+  </div>
+</form>

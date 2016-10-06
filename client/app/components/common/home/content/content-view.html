@@ -1,0 +1,40 @@
+<div ng-show="active">
+
+    <div class="section" ng-show="article.socialMedia">
+        <h3>Artikel jetzt teilen</h3>
+        <ul class="social-links">
+            <li class="facebook"><a href=""></a></li>
+            <li class="twitter"><a href=""></a></li>
+            <li class="pinterest"><a href=""></a></li>
+            <li class="instagram"><a href=""></a></li>
+            <li class="mail"><a href=""></a></li>
+        </ul>
+    </div>
+
+    <div class="related-articles" ng-show="article.relatedArticles">
+      <h3>Verwandter Artikel</h3>
+      <ul class="filter-list box-content">
+        <li ng-repeat="item in article.relatedArticles">
+          <a href="" ng-click="showFullArticleFunc(item.id)">
+            <figure>
+                <img ng-src="{{ item.articleImage.imageUrl }}" alt="{{ item.articleImage.altText }}">
+            </figure>
+          </a>
+          <a class="filter-category-name" ng-click="showCatFilter(item);">{{ item.category.name}}</a>
+          <div class="text">
+            <p>{{item.subheadline}}</p>
+            <div class="date">
+              <i class="icon-uhr"></i>
+              {{ item.created | date:'dd.MM.yyyy'}}
+            </div>
+          </div>
+
+        </li>
+      </ul>
+    </div>
+    <div class="scroll-spacer">
+      <img src="client/styles/images/pfeil-runter.png" alt=""> <br />
+      <span>Weiter zur Übersicht</span>
+    </div>
+
+</div>

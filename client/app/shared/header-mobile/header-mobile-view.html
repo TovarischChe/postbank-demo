@@ -1,0 +1,26 @@
+<header class="navbar navbar-default" id="header">
+  <div class="navbar-header">
+    <div class="container-fluid">
+      <a href="" class="navbar-brand"><img src="/client/styles/images/logo.png" alt=""></a>
+      <a href="" class="navbar-brand visible-xs pull-right"><img src="/client/styles/images/innovationen-logo-xs.png" alt=""></a>
+    </div>
+  </div>
+
+  <div class="navbar-sticky "
+       ng-class="{'article-open': showCloseBtn}"
+       ng-init="isCollapsed = true"
+       sticky sticky-class="sticky"
+       body-class="fixed-header">
+
+    <app-header-search articles="articles" category="category"></app-header-search>
+    <app-header-filter articles="articles" category="category"></app-header-filter>
+
+    <div id="article-close" class="article-close" ng-click="closePost()">
+      <i class="icon-article-close"></i>
+      <span>Artikel schließen</span>
+    </div>
+    <div class="subscribe">
+      <a class="btn btn-primary" href="" ng-click="openSubscribePopup()">Abonnieren</a>
+    </div>
+  </div>
+</header>

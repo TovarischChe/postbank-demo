@@ -1,0 +1,55 @@
+button, input{
+  outline: none;
+}
+
+.form-control, 
+textarea.form-control{
+  box-shadow: 0 1px 1px rgba(0,0,0,0.5) inset;
+  background: $color-input-bg;
+  border:0;
+  font-size: 20px;
+  line-height: 30px;
+  padding: 8px 20px;
+  font-family: $font-family-light;
+  height: 46px;
+  border-radius: 5px;
+}
+
+textarea.form-control{
+  min-height: 140px;
+}
+
+.form-group{
+  margin-bottom: 10px;
+}
+.btn-holder{
+    margin-top: 26px;
+}
+
+.order{
+  text-align: center;
+  margin: 23px 0;
+  position: relative;
+  &:after{
+    @include positionAfter();
+    border-top: 1px dashed $color-text;
+    left: 0;
+    top: 50%;
+    width: 100%;
+  }
+  span{
+    display: inline-block;
+    background: $color-white;
+    padding: 0 5px;
+    position: relative;
+    z-index: 1;
+  }
+  @media (min-width: $vp-tabletDesktop-min){
+    color: #000;
+    margin: 15px 0;
+    &:after{
+      display: none;
+     }
+  }
+}
+

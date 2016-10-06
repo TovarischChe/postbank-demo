@@ -1,0 +1,471 @@
+//sprites
+@import 'styles/_sprite';
+
+@import 'styles/_00-variables';
+@import 'styles/_icon_font';
+@import 'styles/_01-functions';
+@import 'styles/_10-webfonts';
+@import 'styles/_20-typography';
+@import 'styles/_40-layouts';
+@import 'styles/_60-setup';
+@import 'styles/_70-buttons';
+@import 'styles/_80-forms';
+@import 'styles/_90-styles';
+@import 'styles/_99-icons';
+
+@import 'styles/settings';
+@import 'styles/_modal';
+@import 'styles/_player';
+@import 'styles/_slider';
+
+
+/* Application scss */
+
+@import 'app/shared/header-mobile/_header';
+@import 'app/shared/header-mobile/header-search/_header-search';
+@import 'app/shared/header-mobile/header-filter/_header-filter';
+
+
+@media (min-width: $vp-tabletDesktop-min){
+  @import 'app/shared/header-desktop/_header';
+}
+
+@import 'app/components/mobile/home/_home';
+@import 'app/components/desktop/home/_home';
+
+body{
+  min-width: 320px;
+  color: $color-text;
+}
+
+
+//general style for header 
+.navbar{
+  border: 0;
+  margin: 0;
+}
+
+.navbar-collapse{
+  position: absolute !important;
+  width: 100%;
+  z-index: 10;
+  background: $color-white;
+  padding: 0;
+}
+
+.navbar-header{
+  background: $color-navbar;
+  box-shadow: 0 0 1px rgba(0,0,0,0.5);
+  position: relative;
+  z-index: 1000;
+  float: none;
+
+  .navbar-brand{
+    max-width: 45%;
+    img{
+      max-width: 100%;
+      max-height: 20px;
+    }
+  }
+}
+
+//sticky part of header
+.navbar-sticky{
+  background: $navbar-sticky-bg;
+  &.sticky{
+    z-index: 100;
+  }
+
+  .navbar-toggle{
+    float: left;
+    margin: 0;
+    border:0;
+    font-family: $font-family-bold;
+    // margin-left: 45px;
+    span {
+      vertical-align: -3px;
+      margin-right: 5px !important;
+    }
+
+    &:hover, &:active, &:focus{
+      background: none;
+    }
+  }  
+
+  //subscribe btn
+  .subscribe{
+    float: right;
+
+    .btn{
+      border-radius: 0;
+    }
+  }
+}
+
+//filter form general styles
+
+.filter-form{
+  float: left;
+  width: 48%;
+
+}
+
+.filter-collapse{
+  overflow: hidden;
+  background: $navbar-sticky-bg;
+  transition: all 0.3s ease;
+  
+  //back icon for desktop
+  .arrow-top{
+    float: left;
+    width: 64px;
+    height: $navbar-sticky-tablet-height;
+    background-color: $color-base;
+    position: relative;
+    cursor: pointer;
+    margin-right: 20px;
+    i {
+      color: #fff;
+      font-size: 25px;
+      margin: 15px 0 0 18px;
+      position: relative;
+      top: 18px;
+    }
+  }
+  
+  //open state
+  &.filter-open{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    .filter-holder{
+      @include blockOh();
+      z-index: 1000;
+      background: $navbar-sticky-bg;
+    }
+
+    .overlay{
+      display: block;
+    }
+
+    .navbar-toggle{
+      color: $color-title;
+      margin-right: 50px;
+    }
+  }
+  .navbar-toggle{ 
+    span {
+        font-size: 24px;
+        margin-right: 3px;
+        // vertical-align:  -3px;
+      }
+  }
+}
+
+
+//filter list of posts
+
+.filter-list{
+  list-style: none;
+  font-size: 0;
+  line-height: 0;
+
+  li{
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    padding: 0 0 20px;
+    font-size: $font-size-default;
+    line-height: $line-height-default;
+  }
+
+  figure{
+    position: relative;
+
+    &:after{
+      position: absolute;
+      bottom: -2px;
+      left: 10%;
+      content: '';
+      @include sprite($article-arrow);
+    }
+  }
+
+  a{
+    text-transform: uppercase;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+
+  span,
+  .filter-category-name {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: $color-text;
+    text-transform: uppercase;
+
+    &:hover {
+      color: $color-text;
+      cursor: pointer;
+    }
+  }
+
+  .text{
+    padding: 8px 20px 0;
+    p{
+      font-family: $font-family-bold;
+      font-size: 20px;
+      color: $color-title;
+      padding: 0 0 10px;
+      text-align: left;
+    }
+  }
+
+  .date{
+    color: $color-date;
+    i {
+      font-size: 8px;
+      position: relative;
+      top: -1px;
+      right: -2px;
+    }
+  }
+
+  img{
+    max-width: 100%;
+  }
+}
+
+
+
+//home content
+.home-content{
+  @include blockOh();
+  min-height: 44%;
+  background: $color-white;
+  
+    @media (max-width: #{$vp-desktop-max}) and (min-width: #{$vp-desktop-middle}){
+          font-size: 18px;
+        }
+    @media (min-width: #{$vp-desktop-max}){
+        font-size: 21px;
+      }
+
+  //no result after search
+  .no-results{
+    min-height: 100%;
+  }
+  
+  article{
+    @include blockOh();
+  }
+
+  h2{
+    margin: 6px 0 0;
+ 
+    @media (max-width: #{$vp-desktop-max}) and (min-width: #{$vp-desktop-middle}){
+        font-size: 36px;
+      }
+    @media (min-width: #{$vp-desktop-max}){
+        font-size: 46px;
+        line-height:61px;
+      }
+  }
+
+  section{
+    header{
+      border-bottom: 1px solid $header-border;
+      padding: 0 0 10px;
+
+      &.hideBorder {
+        border-bottom: 0;
+      }
+    }
+    
+    //post info about date and author
+    .post-meta{
+      margin: 31px 0 0;
+      ul{
+        @include resetList();
+        overflow: hidden;
+      }
+      li{
+        float: left;
+        line-height: 36px;
+        margin: 0;
+
+        &.date{
+          color: $color-date;
+          i {
+            font-size: 8px;
+            position: relative;
+            top: -1px;
+            right: -2px;
+          }
+        }
+
+        &.author{
+          color: $color-date;
+          a{
+            display: block;
+          }
+          img{
+            width: 36px;
+            border-radius: 40px;
+            margin-left: 5px;
+          }
+        }
+      }
+    }
+
+    .post-content{
+      padding: $spacing 0 0;
+
+      figure{
+        text-align: center;
+        position: relative;
+
+        //add bg shadow to image
+        &.image-overlay{
+          margin: 0 -15px;
+        }
+
+        img{
+          display: block;
+          position: relative;
+          z-index: 1;
+          max-width: 100%;
+        }
+      }
+    }
+  }
+  .image-slider{
+    overflow: hidden;
+    @media (max-width: $vp-mobileTablet-max){
+      max-height: 200px;
+    }
+  }
+}
+
+//related-articles
+
+.related-articles{
+  .filter-list{
+    
+    padding: 0 0 0 30px;
+    li{
+      border: 1px solid #cdcdcd;
+      width: 47%;
+      height: 330px;
+      height: auto;
+      &:after{
+        display: none;
+      }
+      figure{
+        &:after{
+          z-index: 1;
+        }
+      }
+      &:nth-child(1n+1) {
+        margin-right: 6%;
+      }
+      &:nth-child(2n+2) {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+//mobile scroll top button
+
+.scroll-top{
+  background: rgba(0,0,0,0.1);
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  
+  padding-top: 10px;
+  cursor: pointer;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  margin: 0 0 0 -20px;
+  transition: all 200ms ease-out;
+  opacity: 1;
+  z-index: -1;
+  opacity: 0;
+  &.show{
+    opacity: 1;
+    z-index: 10;
+  }
+  &.fixed{
+    position: absolute;
+    top: -40px;
+  }
+  &:hover{
+  	background: rgba(0,0,0,0.2);
+  }
+}
+
+// news content
+.content-full {
+  a {
+    color: $pb-link-color;
+
+    &:hover {
+      color: $pb-link-color-hover;
+    }
+
+    &[disabled] {
+      color: $pb-link-color-disabled;
+    }
+  }
+}
+
+// subscribe modal form
+.subscribe-modal-header {
+  margin-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+
+  p {
+    padding-bottom: 0;
+  }
+}
+.subscribe-modal-body {
+  padding-top: 20px;
+  padding-bottom: 0;
+
+  .subscribe-form {
+    .order {
+      font-size:14px;
+    }
+    .form-group {
+      .error {
+        display: none;
+      }
+      &.has-error {
+        .error {
+          display: block;
+          color: #b81f1d;
+          font-size: 12px;
+          margin-bottom: 5px;
+        }
+        input {
+          border: 1px solid #b81f1d;
+        }
+      }
+    }
+    .subscribe-form-dashes {
+      padding: 0;
+      color: #ccc;
+      letter-spacing: 2px;
+    }
+
+  }
+}

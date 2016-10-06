@@ -1,0 +1,119 @@
+.rendering {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+.text {
+  @extend .rendering;
+  color: $color-black;
+}
+
+body {
+  font-size: $font-size-default;
+  line-height: $line-height-default;
+  font-family: $font-family-base;
+}
+
+a{
+  color: $color-link;
+  &.text-link{
+    &:before{
+      display: inline-block;
+      //content: '>';
+      font-family: $font-family-bold;
+    }
+  }
+}
+
+p{
+  margin: 0;
+  padding: 0 0 21px;
+}
+
+h3{
+  font-size: 16px;
+  line-height: 24px;
+  font-family: $font-family-bold;
+  margin: 0;
+  padding: 0 0 25px;
+    @media (max-width: #{$vp-desktop-max}) and (min-width: #{$vp-desktop-middle}){
+        font-size: 20px;
+      }
+    @media (min-width: #{$vp-desktop-max}){
+        font-size: 25px;
+      }
+}
+
+ul{
+  margin: 0 0 0 30px;
+  padding: 0;
+  li{
+    margin: 8px 0 0;
+  }
+}
+
+/* copy text */
+
+.copy-text {
+  font-family: $font-family-base;
+  font-weight: bold;
+  font-size: $font-size-default;
+  line-height: $line-height-default;
+  text-align: center;
+}
+
+/* titles */
+
+.title, h2 {
+  @extend .text;
+  color: $color-title;
+  font-size: 30px;
+  line-height: 40px;
+  font-family: $font-frutiger-bold;
+  margin: 0;
+}
+
+/* Buttons */
+
+.btn {
+  @extend .text;
+  color: $color-white;
+  font-family: $font-family-base;
+  font-size: $font-size-default;
+  font-weight: $font-weight-normal;
+  line-height: 32px;
+}
+
+.tag{
+  text-transform: uppercase;
+  margin: 4px 0 0;
+}
+
+/*blockquote*/
+
+blockquote{
+  border: 0;
+  padding: 0;
+  font-family: $font-family-light-italic;
+  font-size: 30px;
+  line-height: 43px;
+  color: $color-title;
+  text-align: center;
+  q{
+    &:after{
+      content: '”';
+    }
+    &:before{
+      content: '„';
+    }
+  }
+}
+
+.footer {
+  div {
+    font-weight: normal;
+  }
+  a {
+    font-family: $font-family-base;
+  }
+}

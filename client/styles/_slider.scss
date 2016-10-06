@@ -1,0 +1,21 @@
+.horizontal-slider, .vertical-slider{
+  padding: 0 0 30px;
+  figure .image-slider{
+    img{
+      width: 100%;
+    }
+  }
+}
+
+@media (min-width: $vp-tabletDesktop-min){
+  .swiper-button-next{
+    @include sprite($slider-next);
+    background-size: auto;
+    right: 0;
+  }
+  .swiper-button-prev{
+    @include sprite($slider-prev);
+    background-size: auto;
+    left: 0;
+  }
+}

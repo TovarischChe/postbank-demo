@@ -1,0 +1,150 @@
+{
+  "id": 2,
+  "created": "2015-07-15T23:44:32+02:00",
+  "author": {
+    "authorImageUrl": "client/images/author-avatar.png",
+    "authorName": "Peter Schmidt",
+    "authorImageAltText": "Author image"
+  },
+  "category": {
+    "id": 2,
+    "name": "Sparen"
+  },
+  "articleImage": {
+    "imageUrl": "client/images/article-mobile-1.jpg",
+    "altText": "Test image"
+  },
+  "headline": "Finanzassistent - Article 1",
+  "subheadline": "Der Sparhelfer für iPad, Android- und Windows-Tablets!",
+  "textEditor": "&lt;p&gt;Gemeinsam macht alles mehr Spaß – jetzt auch das Sparen. Ob die geplante Weltreise, die angesagte Designertasche oder die neue Spülmaschine für die WG: mit dem Sparhelfer lassen sich Wünsche ganz einfach teilen und so schneller erfüllen.&lt;/p&gt;&lt;p&gt;Schon jetzt verfügbar für das iPad, Android- und Windows-Tablets.&lt;/p&gt;",
+  "content": [{
+    "id": 14562,
+    "type": "text-image",
+    "headline": "",
+    "text": "&lt;p&gt;Gemeinsam macht alles mehr Spaß – jetzt auch das Sparen. Ob die geplante Weltreise, die angesagte Designertasche oder die neue Spülmaschine für die WG: mit dem Sparhelfer lassen sich Wünsche ganz einfach teilen und so schneller erfüllen.&lt;/p&gt;&lt;p&gt;Schon jetzt verfügbar für das iPad, Android- und Windows-Tablets. &lt;div class='app-links-section'&gt;&lt;p&gt;&lt;strong&gt;Jetzt kostenlos&lt;/strong&gt; herunterladen:&lt;/p&gt; &lt;ul class='app-links'&gt; &lt;li&gt;    &lt;a href = 'target='_blank'&gt;&lt;img alt=''    src = '/client/images/app-store.png' &gt; &lt;/a&gt; &lt;/li&gt; &lt;li&gt;    &lt;a href = 'target='    _blank '&gt;&lt;img alt=''  src ='/client/images/google-play.png' &gt; &lt;/a&gt; &lt;/li&gt; &lt;li &gt;    &lt;a href = '' target='_blank'&gt;&lt;img alt=''    src ='/client/images/windows-store.png' &gt; &lt;/a&gt; &lt;/li&gt; &lt;/ul&gt;&lt;div&gt;&lt;/p&gt; ",
+    "images": [{
+      "imageUrl": "/client/images/article-image.png",
+      "altText": "Test image",
+      "imageLink": "",
+      "imageLinkType": "image"
+    }],
+    "buttons": []
+  }, {
+    "id": 16569,
+    "headline": "Einfach, intelligent, komfortabel - und hört aufs Wort",
+    "type": "text-image",
+    "text": "&lt;p&gt;Mit dem Postbank Finanzassistenten ... &lt;/p&gt;&lt;p&gt;Verwalten Sie Ihr Bugdget&lt;/a&gt;",
+    "images": [{
+      "imageUrl": "/client/images/article-image.png",
+      "altText": "Test image",
+      "imageLink": "/client/images/videogular.mp4",
+      "imageLinkType": "audio"
+    }],
+    "buttons": []
+  }, {
+    "id": 16565,
+    "headline": "Einfach, intelligent, komfortabel - und hört aufs Wort",
+    "type": "text-image",
+    "text": "&lt;p&gt;Mit dem Postbank Finanzassistenten ... &lt;/p&gt;&lt;p&gt;Verwalten Sie Ihr Bugdget&lt;/a&gt;",
+    "images": [{
+      "imageUrl": "/client/images/article-image.png",
+      "altText": "Test image",
+      "imageLink": "/client/images/videogular.mp4",
+      "imageLinkType": "video"
+    }],
+    "buttons": []
+  }, {
+    "id": 9533,
+    "headline": "",
+    "type": "text-image",
+    "text": "&lt;p&gt;Mit dem Postbank &lt;a href=&quot;http://google.com&quot;&gt;Finanzassistenten&lt;/a&gt; ... &lt;/p&gt;",
+    "images": [],
+    "buttons": []
+  }, {
+    "id": 1133,
+    "headline": "",
+    "type": "linklist",
+    "text": "&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;http://google.com&quot;&gt;Finanzassitenten Text Link&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://google.com&quot;&gt;Testlink 2&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;",
+    "images": [],
+    "buttons": []
+  }, {
+    "id": 1433,
+    "headline": "",
+    "type": "text-image",
+    "text": "&lt;ul&gt;&lt;li&gt;Verwalten Sie Ihr Budget ganz bequem&lt;/li&gt;&lt;li&gt;Erkennen Sie Liquiditäts und Spielräume&lt;/li&gt;&lt;li&gt;Führen Sie &lt;a href=&quot;http://google.com&quot;&gt;Überweisungen (möglicher inline Link)&lt;/a&gt; bequem von&lt;/li&gt;&lt;/ul&gt;",
+    "images": [],
+    "buttons": []
+  }, {
+    "id": 1453,
+    "headline": "",
+    "type": "quote",
+    "text": "Mit dem brand Postbank Finanzassitenten behalten Sie leicht den Überblick",
+    "images": [],
+    "buttons": []
+  }, {
+    "id": 1455,
+    "headline": "",
+    "type": "text-image",
+    "text": "",
+    "images": [{
+      "imageUrl": "/client/images/article-image.png",
+      "altText": "Test image",
+      "imageLink": "",
+      "imageLinkType": "slider"
+    }, {
+      "imageUrl": "/client/images/article-image.png",
+      "altText": "Test image",
+      "imageLink": "",
+      "imageLinkType": "slider"
+    }, {
+      "imageUrl": "/client/images/article-image.png",
+      "altText": "Test image",
+      "imageLink": "",
+      "imageLinkType": "slider"
+    }],
+    "buttons": [{
+      "url": "http://google.com",
+      "type": "blue",
+      "caption": "Button Text"
+    }, {
+      "url": "http://google.com",
+      "type": "rss",
+      "caption": "Button Text"
+    }]
+  }],
+  "socialMedia": 1,
+  "relatedArticles": [{
+    "id": 2,
+    "headline": "Finanzassistent - Article 1",
+    "subheadline": "Der Sparhelfer für iPad, Android- und Windows-Tablets!",
+    "created": "2015-07-15T23:44:32+02:00",
+    "category": {
+      "id": 2,
+      "name": "Sparen"
+    },
+    "articleImage": {
+      "imageUrl": "client/images/article-mobile-1.jpg",
+      "altText": "Test image"
+    },
+    "headline": "Finanzassistent - Article 1"
+  }, {
+    "id": 5,
+    "headline": "Finanzassistent - Article 1",
+    "subheadline": "Der Sparhelfer für iPad, Android- und Windows-Tablets!",
+    "created": "2015-07-15T23:44:32+02:00",
+    "category": {
+      "id": 2,
+      "name": "Sparen"
+    },
+    "articleImage": {
+      "imageUrl": "client/images/article-mobile-1.jpg",
+      "altText": "Test image"
+    },
+    "headline": "Finanzassistent - Article 2"
+  }],
+  "searchtags": [
+    "sparen",
+    "Finanzassistent",
+    "Sparhelfer"
+  ]
+}

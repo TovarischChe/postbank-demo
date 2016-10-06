@@ -1,0 +1,55 @@
+<app-header-mobile article-open="articleOpen" articles="articles" category="categoryId" article-in-viewport="articleInViewport"></app-header-mobile>
+<div class="home-content" in-view-container>
+  <article ng-repeat="article in articles" id="article-content-{{$index}}" in-view="articleInView($index, $inview)">
+    <a href="#article-content-{{$index}}"></a>
+    <figure class="mobile-image">
+      <img ng-src="{{ article.articleImage.imageUrl }}" alt="{{ article.articleImage.altText }}">
+    </figure>
+
+    <section class="box-content">
+      <header>
+        <div class="tag">
+          {{ article.category.name }}
+        </div>
+        <h2>{{ article.subheadline }}</h2>
+        <div class="post-meta">
+          <ul>
+            <li class="date">{{ article.created | date:'dd.MM.yyyy'}}</li>
+          </ul>
+        </div>
+      </header>
+
+      <div class="post-content">
+        <div ng-bind-html="article.textEditor|supertrusthtml"></div>
+        <p class="more"><a href="" ng-click="getArticle($index)" class="btn btn-primary" ng-show="!article.opened">Mehr erfahren</a></p>
+        <div article="article" article-content="article.fullContent" slider-settings="sliderSettings"></div>
+
+      </div>
+    </section>
+  </article>
+
+  <article ng-hide="articles.length" class="no-results">
+    <section class="box-content">
+      <h2>Keine Ergebnisse gefunden</h2>
+    </section>
+  </article>
+</div>
+
+
+<footer class="footer" id="footer">
+  <div class="scroll-top" scroll-on-click="#header" >
+    <i class="icon-top"></i>
+  </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="pull-right col-xs-12 col-sm-6">
+            <ul>
+                <li><a href="https://m.postbank.de/portal/postbank/wu_impressum.html" target="_blank">Impressum</a></li>
+                <li><a href="https://m.postbank.de/portal/privatkunden/pk_downloadcenter.html" target="_blank">AGB</a></li>
+                <li><a href="https://m.postbank.de/portal/postbank/wu_datenschutz.html" target="_blank">Datenschutzhinweise</a></li>
+            </ul>
+        </div>
+        <div class="copy-text col-xs-12 col-sm-6">&copy; 2014 Deutsche Postbank AG</div>
+      </div>
+    </div>
+</footer>

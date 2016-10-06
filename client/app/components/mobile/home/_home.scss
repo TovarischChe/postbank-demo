@@ -1,0 +1,55 @@
+$header-border: #cbcbcb;
+
+.home-content{
+  
+  figure.mobile-image{
+    position: relative;
+    &:after{
+      position: absolute;
+      bottom: -2px;
+      left: 6%;
+      content: '';
+      @include sprite($article-arrow);
+    }
+    img{
+      width: 100%;
+    }
+  }
+
+  p.more {
+    margin-top: 9px;
+    margin-bottom: 39px;
+  }
+  section{
+    header{
+      margin-top: 11px;
+      padding-bottom: 11px !important;
+    }
+    .post-meta {
+      margin-top: 9px !important;
+    }
+    .post-content {
+      padding-top: 25px !important;
+    }
+  }
+
+  h2 {
+    margin-top: 7px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .scroll-spacer {
+    display: none;
+  }
+  article .box-content {
+    padding-bottom: 75px;
+    .section {
+      margin-bottom: 0;
+    }
+  }
+  .home-content p.more {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+}

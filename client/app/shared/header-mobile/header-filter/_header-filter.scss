@@ -1,0 +1,76 @@
+
+//Mobile navbar sticky
+.navbar-sticky{
+  &.sticky{
+
+    .filter-list{
+      padding-top: ($navbar-sticky-height + $spacing);
+    }
+  }
+}
+
+
+
+.filter-collapse{
+  height: $navbar-sticky-height;
+
+  //close icone for filter (mobile)
+  .icon-close{
+    float: right;
+    width: 20%;
+    height: $navbar-sticky-height;
+  }
+}
+
+.navbar-toggle{
+  margin-right: 35px !important;
+  .icon-filter{
+    margin: 0 8px 0 0 !important;
+    width: 24px;
+    height: 25px;
+    overflow: hidden;
+    &.active {
+      i {
+        color: #373737;
+      }
+    }
+    .icon-filter-6 {
+      margin: 0;
+    }
+    .icon-filter-3 {
+      margin: 0;
+      color: #ccc;
+      position: relative;
+      right: 0px;
+      top: -24px;
+    }
+    &.selected {
+      .icon-filter-3 {
+        color: #ffcb00;
+      }
+      // @include sprite($filter-checked);
+    }
+  }
+}
+
+
+//filter list
+#navbar-filter{
+  top: 0;
+  left: 0;
+  z-index: 100;
+  position: fixed !important;
+  max-height: 100%;
+  overflow-y: auto;
+  border-top: 0;
+}
+
+.filter-list{
+  margin: 0 0 0 -5%;
+  padding-top: (($navbar-sticky-height * 2) + $spacing);
+
+  li{
+    width: 45%;
+    margin: 0 0 0 5%;
+  }
+}

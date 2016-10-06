@@ -1,0 +1,130 @@
+$static-base    : '/client/styles';
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// ASSET PATHS
+
+// @static-base: is defined in Gruntfile.js and injected into Less
+$path-fonts         : '#{$static-base}/fonts';
+$path-img           : '#{$static-base}/images';
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// TYPOGRAPHY
+
+//PUBLICO
+//regular
+$font-frutiger-light             : 'FrutigerLTStd-Light', Arial, sans-serif;
+$font-frutiger-roman             : 'FrutigerLTStd-Roman', Arial, sans-serif;
+$font-frutiger-medium            : 'FrutigerRegularCondensed', Arial, sans-serif;
+$font-frutiger-bold              : 'FrutigerLTStd-Bold', Arial, sans-serif;
+//$font-frutiger-extrabold         : 'PublicoHeadline-Extrabold', Arial, sans-serif;
+$font-frutiger-black             : 'FrutigerLTStd-Black', Arial, sans-serif;
+
+// italic
+$font-frutiger-light-italic      : 'FrutigerLTStd-LightItalic', Arial, sans-serif;
+$font-frutiger-italic            : 'FrutigerLTStd-Italic', Arial, sans-serif;
+//$font-frutiger-medium-italic     :  Arial, sans-serif;
+$font-frutiger-bold-italic       : 'FrutigerLTStd-BoldItalic', Arial, sans-serif;
+$font-frutiger-extrabold-italic  : 'PublicoHeadline-ExtraboldItalic', Arial, sans-serif;
+$font-frutiger-black-italic      : 'FrutigerLTStd-Blacktalic', Arial, sans-serif;
+
+
+$font-family-base                : $font-frutiger-roman;
+$font-family-bold                : $font-frutiger-bold;
+$font-family-light               : $font-frutiger-light;
+$font-family-light-italic        : $font-frutiger-light-italic;
+
+$font-family-extra               : Calibri;
+
+$font-size-default   : 14px;
+$line-height-default : 1.5;
+
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+
+$pagePaddingRight: calc((100vw - 960px) * 0.2);
+$pagePaddingRight960: 45px;
+$pagePaddingRightPlus100Percent: calc(100% + ((100vw - 960px) * 0.2));
+$pagePaddingRightPlus100Percent960: calc(100% + 45px);
+$pagePaddingRightNegative: calc((100vw - 960px) * 0.2 * -1);
+$pagePaddingRightNegative960: -45px;
+
+/* Colors */
+
+$color-base: #093377;
+$color-title: #333;
+$color-navbar: #ffcb00;
+$border: #b5c2d7;
+$color-link: #0a3378;
+$color-date: #999999;
+$navbar-sticky-bg: #f3f5f8;
+$color-footer: #191919;
+$color-text: #4b4b4b;
+
+$color-input-bg: #f3f5f7;
+
+//Black
+$color-black: #000000;
+$color-black-light: #282828;
+
+//Grey
+$color-white: #ffffff;
+$color-placeholder: #ccc;
+
+//Button hover
+$color-button-hover: #477BB5;
+
+//social
+$facebook-bg: #3b5997;
+$twitter-bg: #55abed;
+$pinterest-bg: #006463;
+$instagram-bg: #0177b5;
+$mail-bg: #ffcb00;
+
+/*sizes*/
+$navbar-sticky-height: 55px;
+$navbar-sticky-tablet-height: 64px;
+$header-tablet-height: 83px;
+$navpar-space: 15px;
+
+
+
+/* Breakpoints */
+$vp-mobile-min: 340px;
+$vp-mobile-max: 543px;
+$vp-mobileTablet-min: 544px;
+$vp-mobileTablet-max: 767px;
+$vp-tabletDesktop-min: 768px;
+$vp-tabletDesktop-max: 1023px;
+$vp-desktop-min: 1025px;
+$vp-noContentPagePadding: 1130px;
+$vp-desktop-middle: 1600px;
+$vp-desktop-max: 1920px;
+$maxContentWidth: 960px;
+
+/* meqia queries */
+$m-mobile: "(max-width: #{$vp-mobile-max})";
+$m-mobile-up: "(min-width: #{$vp-mobile-min})";
+$m-mobileTablet: "(min-width: #{$vp-mobileTablet-min}) and (max-width: #{$vp-mobileTablet-max})";
+$m-mobileTablet-up: "(min-width: #{$vp-mobileTablet-min})";
+$m-tabletDektop: "(min-width: #{$vp-tabletDesktop-min}) and (max-width: #{$vp-tabletDesktop-max})";
+$m-tabletDektop-up: "(min-width: #{$vp-tabletDesktop-min})";
+$m-desktop-down: "(max-width: #{$vp-tabletDesktop-max})";
+$m-desktop-up: "(min-width: #{$vp-desktop-min})";
+$m-noContentPaddingNeeded: "(min-width: #{$vp-noContentPagePadding})";
+$m-desktop-large:"(min-width: #{$vp-desktop-middle})";
+
+
+$spacing: 15px;
+
+$susy: (
+  /* Tells Susy to use 12 columns */
+  columns: 12,
+  /* Tells Susy that the container has a max-width of 1120px */
+  /* Tells Susy to use border-box */
+  global-box-sizing: border-box,
+  gutters: .35
+);
+
+// link colors
+$pb-link-color: #0a3478;
+$pb-link-color-hover: #477bb5;
+$pb-link-color-disabled: #373737;

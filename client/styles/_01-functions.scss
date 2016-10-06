@@ -1,0 +1,148 @@
+@function rem($value) {
+  @return ($value / $font-size-default) + rem;
+}
+
+@mixin standardText() {
+  color: $color-black;
+  font-family: $font-family-base;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: $line-height-default;
+}
+
+@mixin standardTextBold() {
+  color: $color-black;
+  font-family: $font-family-bold;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: $line-height-default;
+}
+
+@mixin mainNavigationText() {
+  font-family: $font-family-base;
+  font-size: 1.143rem;
+  font-weight: 700;
+}
+
+@mixin fullFit($position: null) {
+  @if ($position) {
+    position: $position;
+    left: 0;
+    top: 0;
+  }
+  width: 100%;
+  height: 100%;
+}
+
+@mixin clearAfter() {
+  &:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+}
+
+@mixin appearFancy() {
+  &:hover {
+    ul {
+      opacity: 1;
+      visibility: visible;
+      margin-top: 0;
+    }
+    li {
+      animation: fadeIn 0.5s ease 0s forwards;
+    }
+    @for $i from 1 through 20 {
+      li:nth-child(#{$i}) {
+        animation-delay: 0.05s * $i;
+      }
+    }
+  }
+  ul {
+    opacity: 0;
+    margin-top: -20px;
+    transition: margin 0.3s, opacity 0.3s;
+    visibility: hidden;
+    transform: none;
+  }
+  li {
+    opacity: 0;
+  }
+}
+
+@function rem($value) {
+  @return ($value / $font-size-default) + rem;
+}
+
+// Provides a simplified syntax for chaining media queries across named or numeric breakpoints
+@mixin responsive($properties, $default-value, $responsive-values){
+
+
+  // Apply default property values
+  @each $property in $properties {
+    #{$property}: #{$default-value};
+  }
+
+  @each $breakpoint, $value in $responsive-values{
+    // Fallback to min-width media queries
+    @media screen and (min-width: $breakpoint) {
+      @each $property in $properties {
+        #{$property}: #{$value};
+      }
+    }
+  }
+}
+
+@keyframes fadeIn {
+  0%{opacity: 0}
+  100%{opacity: 1}
+}
+
+@mixin positionCenter() {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@mixin resetSpace() {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+@mixin placeholder {
+  &::-webkit-input-placeholder {@content}
+  &:-moz-placeholder           {@content}
+  &::-moz-placeholder          {@content}
+  &:-ms-input-placeholder      {@content}  
+}
+
+@mixin linearGradient($top, $bottom){
+    background: $top; /* Old browsers */
+    background: -moz-linear-gradient(top,  $top 0%, $bottom 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$top), color-stop(100%,$bottom)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  $top 0%,$bottom 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  $top 0%,$bottom 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  $top 0%,$bottom 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  $top 0%,$bottom 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+}
+
+@mixin resetList() {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@mixin blockOh() {
+  overflow: hidden;
+  position: relative;
+}
+
+@mixin positionAfter() {
+  position: absolute;
+  content: '';
+}

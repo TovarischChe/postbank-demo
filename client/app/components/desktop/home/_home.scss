@@ -1,0 +1,335 @@
+$header-border: #cbcbcb;
+
+
+.fixed-table{
+  .home-content:after{
+    position: fixed;
+    height: 2px;
+    content: '';
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: $color-navbar;
+    z-index: 100;
+  }
+}
+
+.home-content{
+
+    figure.main-image {
+      position: fixed;
+      height: 100%;
+      float: left;
+      width: 58%;
+      top: 0;
+      transition: all 0.3s ease;
+      background-size: cover;
+      background-position: 50% 0;
+
+      @media #{$m-desktop-down} {
+        width: 50%;
+      }
+
+      &:before {
+        opacity: 0;
+        transition: all .3s;
+        transition-delay: .1s;
+      }
+
+      /* Desktop only */
+      @media only screen and (min-device-width: 800px) and (orientation:landscape) {
+        &:before {
+          content: '';
+          @include fullFit(absolute);
+          background: url(#{$path-img}/figure-overlay.png);
+          display: block;
+        }
+      }
+
+      &:after {
+        @include positionAfter();
+        left: auto;
+        right: -2px;
+        top: 28%;
+        display: block;
+        @include sprite($lan-arrow-detail);
+
+        @media (min-width: $vp-desktop-min) {
+          @include sprite($left-article-arrow);
+        }
+      }
+      img {
+        width: 100%;
+        visibility: hidden;
+      }
+      .tag {
+        position: absolute;
+        left: 0;
+        bottom: 10%;
+        @include sprite($postbank-innovation);
+      }
+    }
+
+  .main-content{
+    float: right;
+    width: 42%;
+    margin-top: $navbar-sticky-tablet-height;
+    transition: all 0.3s ease;
+    @include blockOh();
+
+    @media #{$m-desktop-down} {
+      width: 50%;
+    }
+  }
+
+  &.detail{
+    figure.main-image {
+      width: 32%;
+      .detail-arrow {
+        @include sprite($arrow-inside);
+        right: 0;
+        position: absolute;
+        top: 28%;
+
+        &:after {
+          @include positionAfter();
+          bottom: 40px;
+          right: 0;
+          width: 16px;
+          height: 9999em;
+          background: $color-white;
+        }
+
+        &:before {
+          @include positionAfter();
+          top: 40px;
+          right: 0;
+          width: 16px;
+          height: 9999em;
+          background: $color-white;
+        }
+      }
+
+      &:before {
+        opacity: 1;
+      }
+
+      &:after {
+        display: none;
+      }
+
+    }
+    .main-content{
+      width: 68%;
+      padding: 30px 5%;
+    }
+  }
+  
+
+
+  /* Portrait */
+  @media only screen 
+    and (min-device-width: 768px) 
+    and (max-device-width: 1024px) 
+    and (orientation: portrait) 
+    and (-webkit-min-device-pixel-ratio: 1) {
+    figure.main-image{
+      width: 100%;
+      float: none;
+      background: none;
+      @include blockOh();
+
+      &:before{
+        background: none;
+      }
+
+      &:after{
+        @include positionAfter();
+        top: auto;
+        bottom: -2px;
+        right: auto;
+        left: 6%;
+        @include sprite($article-arrow);
+      }
+      .tag{
+        display: none;
+      }
+      img{
+        visibility: visible;
+      }
+    }
+    &.detail{
+      figure.main-image{
+        width: 100%;
+        .detail-arrow{
+          display: none;
+        }
+        &:after{
+          display: block;
+        }
+      }
+      .main-content{
+        width: 100%;
+        // padding: 30px 50px;
+      }
+    }
+    .main-content{
+      width: 100%;
+      float: none;
+      margin-top: 0;
+    }
+  }
+
+
+  .app-links-section{
+    overflow: hidden;
+    p{
+      float: left;
+      width: 25%;
+      margin-top: 5px;
+      strong{
+        font-family: $font-family-bold;
+        font-size: 16px;
+        font-weight: normal;
+        display: block;
+          @media (max-width: #{$vp-desktop-max}) and (min-width: #{$vp-desktop-middle}){
+            font-size: 20px;
+          }
+          @media (min-width: #{$vp-desktop-max}){
+            font-size: 25px;
+          }
+      }
+    }
+    .app-links{
+      float: left;
+      width: 75%;
+    }
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .home-content.detail {
+    .tag {
+      display: none;
+    }
+  }
+}
+
+#articles-categories {
+  height: 100%;
+  position: relative;
+}
+
+.articles-categories {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  transform: translateY(100vh);
+  transition: transform 1s ease-in-out;
+
+  &.ng-hide {
+    display: block !important;
+  }
+
+  &.state-visible {
+    transform: translateY(0) !important;
+  }
+  .overlay {
+    display: block;
+    position: absolute;
+    top: 0px;
+  }
+  .filter-form {
+    width: 100% !important;
+    position: relative;
+    float: none;
+    margin-left: 0;
+
+    .filter-list {
+      min-height: calc(100vh - 95px);
+      padding: 40px 0 0 0;
+      text-align: left;
+      width: 90%;
+      margin: 0 auto;
+      @media (min-width: 700px){
+        width: 600px;
+      }
+      @media (min-width: 1024px){
+        width: 950px;
+      }
+      @media (min-width: 1502px){
+        width: 1360px;
+      }
+    }
+
+
+    .navbar-toggle{
+      font-weight: bold;
+      float: left;
+      margin: 0;
+      border:0;
+      color: #033476;
+      padding: 20px 25px;
+      &.themen-filtern {
+        padding: 20px 15px;
+        .selected {
+          .icon-filter-6 {
+            color: #033476 !important;;
+          }
+        }
+        span.selected {
+          vertical-align: -7px;
+        }
+      }
+      span.icon-filer-komplett {
+        vertical-align: -3px;
+        margin-right: 10px;
+      }
+
+      &:hover, &:active, &:focus{
+        background: none;
+        // color: #477BB5;
+      }
+
+      &.active {
+        color: #373737;
+        &:hover {
+          color: #373737;
+        }
+      }
+
+      &:hover {
+        color: #477BB5;
+      }
+
+      .icon-overview{
+        margin: 0 10px 0 0;
+      }
+    }
+  }
+  .navbar-filter {
+    position: relative;
+    text-align: center;
+    height: calc(100vh - #{$navbar-sticky-tablet-height});
+    overflow: hidden;
+  }
+
+  &.state-visible {
+    .navbar-filter {
+      overflow-y: scroll;
+    }
+  }
+}
+
+.scroll-spacer {
+  text-align: center;
+  margin-top: 140px;
+  margin-bottom: 300px;
+  span {
+    font-size: 28px;
+    color: #999999;
+    display:block;
+    margin-top: 20px;
+  }
+}

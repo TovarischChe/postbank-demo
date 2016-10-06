@@ -1,0 +1,25 @@
+<header class="navbar navbar-default" id="header" ng-class="{'details-open': showFullArticle}">
+  <div class="navbar-header">
+      <a href="https://www.postbank.de/" class="navbar-brand">
+          <img src="/client/styles/images/logo.png" alt="">
+      </a>
+  </div>
+
+  <div class="navbar-sticky">
+
+    <div class="filter-form">
+      <div class="filter-collapse">
+        <div class="filter-holder">
+          <button type="button" class="navbar-toggle collapsed" ng-click="toggleArticleList(article.id)">
+            <span class="icon-filer-komplett"></span>Übersicht
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!--<app-header-search></app-header-search>-->
+    <div class="subscribe" ng-if="!presse">
+      <a class="btn btn-primary" href="" ng-click="openSubscribePopup('tablet')">News abonnieren</a>
+    </div>
+  </div>
+</header>

@@ -1,0 +1,28 @@
+{
+  "name": "as-angular-seed",
+  "version": "0.0.1",
+  "authors": [],
+  "directory": "client/vendor",
+  "description": "AngularJS seed with browserify",
+  "main": "client/app/app.modules.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "videogular": "~1.2.4",
+    "videogular-controls": "~1.2.4",
+    "videogular-overlay-play": "~1.2.4",
+    "ngSticky": "~1.7.9",
+    "angular-ui-select": "~0.12.0",
+    "angular-swiper": "*",
+    "swiper": "*",
+    "ng-lodash": "*",
+    "angular-scroll": "*",
+    "angular-inview": "*"
+  }
+}

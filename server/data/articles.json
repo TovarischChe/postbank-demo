@@ -1,0 +1,1260 @@
+[{
+  "id": 1,
+  "created": "2015-07-15T23:44:32+02:00",
+  "author": {
+    "authorId" : 1,
+    "authorImageUrl": "client/images/avatar_team.png",
+    "authorName": "Team Innovation",
+    "authorImageAltText": "Author image"
+  },
+  "category": {
+    "id": 1,
+    "name": "Kategorie Sparen"
+  },
+  "articleImage": {
+    "imageUrl": "client/images/article-mobile-1.jpg",
+    "altText": "Test image"
+  },
+  "headline": "1Finanzassistent",
+  "subheadline": "Der Sparhelfer für iPad, Android- und ...",
+  "textEditor": "&lt;p&gt;Gemeinsam macht alles mehr Spaß – jetzt auch das Sparen. Ob die geplante Weltreise, die angesagte Designertasche oder die neue Spülmaschine für die WG: mit dem Sparhelfer lassen sich Wünsche ganz einfach teilen und so schneller erfüllen.&lt;/p&gt;&lt;p&gt;Schon jetzt verfügbar für das iPad, Android- und Windows-Tablets.&lt;/p&gt;",
+  "content": [{
+    "id": 14562,
+    "type": "text-image",
+    "headline": "",
+    "text": "&lt;p&gt;Gemeinsam macht alles mehr Spaß – jetzt auch das Sparen. Ob die geplante Weltreise, die angesagte Designertasche oder die neue Spülmaschine für die WG: mit dem Sparhelfer lassen sich Wünsche ganz einfach teilen und so schneller erfüllen.&lt;/p&gt;&lt;p&gt;Schon jetzt verfügbar für das iPad, Android- und Windows-Tablets. &lt;div class='app-links-section'&gt;&lt;p&gt;&lt;strong&gt;Jetzt kostenlos&lt;/strong&gt; herunterladen:&lt;/p&gt;&lt;ul class='app-links'&gt;&lt;li&gt;&lt;a href='' target='_blank'&gt;&lt;img alt='' src='/client/images/app-store.png'&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='' target='_blank'&gt;&lt;img alt='' src='/client/images/google-play.png'&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='' target='_blank'&gt;&lt;img alt='' src='/client/images/windows-store.png'&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;/p&gt;",
+    "images": [{
+      "imageUrl": "/client/images/article-image.png",
+      "altText": "Test image",
+      "imageLink": "",
+      "imageLinkType": "image"
+    }],
+    "buttons": []
+  }, {
+    "id": 16569,
+    "headline": "Einfach, intelligent, komfortabel - und hört aufs Wort",
+    "type": "text-image",
+    "text": "&lt;p&gt;Mit dem Postbank Finanzassistenten ... &lt;/p&gt;&lt;p&gt;Verwalten Sie Ihr Bugdget&lt;/a&gt;",
+    "images": [{
+      "imageUrl": "/client/images/article-image.png",
+      "altText": "Test image",
+      "imageLink": "/client/images/videogular.mp4",
+      "imageLinkType": "audio"
+    }],
+    "buttons": []
+  }, {
+    "id": 16565,
+    "headline": "Einfach, intelligent, komfortabel - und hört aufs Wort",
+    "type": "text-image",
+    "text": "&lt;p&gt;Mit dem Postbank Finanzassistenten ... &lt;/p&gt;&lt;p&gt;Verwalten Sie Ihr Bugdget&lt;/a&gt;",
+    "images": [{
+      "imageUrl": "/client/images/article-image.png",
+      "altText": "Test image",
+      "imageLink": "/client/images/videogular.mp4",
+      "imageLinkType": "video"
+    }],
+    "buttons": []
+  }, {
+    "id": 9533,
+    "headline": "",
+    "type": "text-image",
+    "text": "&lt;p&gt;Mit dem Postbank &lt;a href=&quot;http://google.com&quot;&gt;Finanzassistenten&lt;/a&gt; ... &lt;/p&gt;",
+    "images": [],
+    "buttons": []
+  }, {
+    "id": 1133,
+    "headline": "",
+    "type": "linklist",
+    "text": "&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;http://google.com&quot;&gt;Finanzassitenten Text Link&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://google.com&quot;&gt;Testlink 2&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;",
+    "images": [],
+    "buttons": []
+  }, {
+    "id": 1433,
+    "headline": "",
+    "type": "text-image",
+    "text": "&lt;ul&gt;&lt;li&gt;Verwalten Sie Ihr Budget ganz bequem&lt;/li&gt;&lt;li&gt;Erkennen Sie Liquiditäts und Spielräume&lt;/li&gt;&lt;li&gt;Führen Sie &lt;a href=&quot;http://google.com&quot;&gt;Überweisungen (möglicher inline Link)&lt;/a&gt; bequem von&lt;/li&gt;&lt;/ul&gt;",
+    "images": [],
+    "buttons": []
+  }, {
+    "id": 1453,
+    "headline": "",
+    "type": "quote",
+    "text": "Mit dem brand Postbank Finanzassitenten behalten Sie leicht den Überblick",
+    "images": [],
+    "buttons": []
+  }, {
+    "id": 1455,
+    "headline": "",
+    "type": "text-image",
+    "text": "",
+    "images": [{
+      "imageUrl": "/client/images/article-image.png",
+      "altText": "Test image",
+      "imageLink": "",
+      "imageLinkType": "slider"
+    }, {
+      "imageUrl": "/client/images/article-image.png",
+      "altText": "Test image",
+      "imageLink": "",
+      "imageLinkType": "slider"
+    }, {
+      "imageUrl": "/client/images/article-image.png",
+      "altText": "Test image",
+      "imageLink": "",
+      "imageLinkType": "slider"
+    }],
+    "buttons": [{
+      "url": "http://google.com",
+      "type": "blue",
+      "caption": "Button Text"
+    }, {
+      "url": "http://google.com",
+      "type": "rss",
+      "caption": "Button Text"
+    }]
+  }],
+  "socialMedia": 1,
+  "relatedArticlesIds": [
+    2,
+    3
+  ],
+  "searchtags": [
+    "sparen",
+    "Finanzassistent",
+    "Sparhelfer"
+  ]
+},
+  {
+    "id": 2,
+    "created": "2015-07-15T23:44:32+02:00",
+    "author": {
+      "authorId" : 1,
+      "authorImageUrl": "client/images/avatar_team.png",
+      "authorName": "Team Innovation",
+      "authorImageAltText": "Author image"
+    },
+    "category": {
+      "id": 2,
+      "name": "Kategorie Finanzieren"
+    },
+    "articleImage": {
+      "imageUrl": "client/images/article-mobile-1.jpg",
+      "altText": "Test image"
+    },
+    "headline": "2 Finanzieren",
+    "subheadline": "Test Finanzieren Artikel ID 2",
+    "textEditor": "&lt;p&gt;Finanzieren- Lorem ipsum dolores.&lt;/p&gt;",
+    "content": [{
+      "id": 14562,
+      "type": "text-image",
+      "headline": "",
+      "text": "&lt;p&gt;Gemeinsam macht alles mehr Spaß – jetzt auch das Sparen. Ob die geplante Weltreise, die angesagte Designertasche oder die neue Spülmaschine für die WG: mit dem Sparhelfer lassen sich Wünsche ganz einfach teilen und so schneller erfüllen.&lt;/p&gt;&lt;p&gt;Schon jetzt verfügbar für das iPad, Android- und Windows-Tablets. &lt;div class='app-links-section'&gt;&lt;p&gt;&lt;strong&gt;Jetzt kostenlos&lt;/strong&gt; herunterladen:&lt;/p&gt;&lt;ul class='app-links'&gt;&lt;li&gt;&lt;a href='' target='_blank'&gt;&lt;img alt='' src='/client/images/app-store.png'&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='' target='_blank'&gt;&lt;img alt='' src='/client/images/google-play.png'&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='' target='_blank'&gt;&lt;img alt='' src='/client/images/windows-store.png'&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;/p&gt;",
+      "images": [{
+        "imageUrl": "/client/images/article-image.png",
+        "altText": "Test image",
+        "imageLink": "",
+        "imageLinkType": "image"
+      }],
+      "buttons": []
+    }, {
+      "id": 16569,
+      "headline": "Einfach, intelligent, komfortabel - und hört aufs Wort",
+      "type": "text-image",
+      "text": "&lt;p&gt;Mit dem Postbank Finanzassistenten ... &lt;/p&gt;&lt;p&gt;Verwalten Sie Ihr Bugdget&lt;/a&gt;",
+      "images": [{
+        "imageUrl": "/client/images/article-image.png",
+        "altText": "Test image",
+        "imageLink": "/client/images/videogular.mp4",
+        "imageLinkType": "audio"
+      }],
+      "buttons": []
+    }, {
+      "id": 16565,
+      "headline": "Einfach, intelligent, komfortabel - und hört aufs Wort",
+      "type": "text-image",
+      "text": "&lt;p&gt;Mit dem Postbank Finanzassistenten ... &lt;/p&gt;&lt;p&gt;Verwalten Sie Ihr Bugdget&lt;/a&gt;",
+      "images": [{
+        "imageUrl": "/client/images/article-image.png",
+        "altText": "Test image",
+        "imageLink": "/client/images/videogular.mp4",
+        "imageLinkType": "video"
+      }],
+      "buttons": []
+    }, {
+      "id": 9533,
+      "headline": "",
+      "type": "text-image",
+      "text": "&lt;p&gt;Mit dem Postbank &lt;a href=&quot;http://google.com&quot;&gt;Finanzassistenten&lt;/a&gt; ... &lt;/p&gt;",
+      "images": [],
+      "buttons": []
+    }, {
+      "id": 1133,
+      "headline": "",
+      "type": "linklist",
+      "text": "&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;http://google.com&quot;&gt;Finanzassitenten Text Link&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://google.com&quot;&gt;Testlink 2&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;",
+      "images": [],
+      "buttons": []
+    }, {
+      "id": 1433,
+      "headline": "",
+      "type": "text-image",
+      "text": "&lt;ul&gt;&lt;li&gt;Verwalten Sie Ihr Budget ganz bequem&lt;/li&gt;&lt;li&gt;Erkennen Sie Liquiditäts und Spielräume&lt;/li&gt;&lt;li&gt;Führen Sie &lt;a href=&quot;http://google.com&quot;&gt;Überweisungen (möglicher inline Link)&lt;/a&gt; bequem von&lt;/li&gt;&lt;/ul&gt;",
+      "images": [],
+      "buttons": []
+    }, {
+      "id": 1453,
+      "headline": "",
+      "type": "quote",
+      "text": "Mit dem brand Postbank Finanzassitenten behalten Sie leicht den Überblick",
+      "images": [],
+      "buttons": []
+    }, {
+      "id": 1455,
+      "headline": "",
+      "type": "text-image",
+      "text": "",
+      "images": [{
+        "imageUrl": "/client/images/article-image.png",
+        "altText": "Test image",
+        "imageLink": "",
+        "imageLinkType": "slider"
+      }, {
+        "imageUrl": "/client/images/article-image.png",
+        "altText": "Test image",
+        "imageLink": "",
+        "imageLinkType": "slider"
+      }, {
+        "imageUrl": "/client/images/article-image.png",
+        "altText": "Test image",
+        "imageLink": "",
+        "imageLinkType": "slider"
+      }],
+      "buttons": [{
+        "url": "http://google.com",
+        "type": "blue",
+        "caption": "Button Text"
+      }, {
+        "url": "http://google.com",
+        "type": "rss",
+        "caption": "Button Text"
+      }]
+    }],
+    "socialMedia": 1,
+    "relatedArticlesIds": [
+      1,
+      3
+    ],
+    "searchtags": [
+      "sparen",
+      "Finanzassistent",
+      "Sparhelfer"
+    ]
+  },
+  {
+    "id": 3,
+    "created": "2015-07-15T23:44:32+02:00",
+    "author": {
+      "authorId" : 1,
+      "authorImageUrl": "client/images/avatar_team.png",
+      "authorName": "Team Innovation",
+      "authorImageAltText": "Author image"
+    },
+    "category": {
+      "id": 2,
+      "name": "Kategorie Finanzieren"
+    },
+    "articleImage": {
+      "imageUrl": "client/images/article-mobile-1.jpg",
+      "altText": "Test image"
+    },
+    "headline": "3 Finanzieren",
+    "subheadline": "Test Finanzieren Artikel ID 3",
+    "textEditor": "&lt;p&gt;Finanzieren- Lorem ipsum dolores.&lt;/p&gt;",
+    "content": [{
+      "id": 14562,
+      "type": "text-image",
+      "headline": "",
+      "text": "&lt;p&gt;Gemeinsam macht alles mehr Spaß – jetzt auch das Sparen. Ob die geplante Weltreise, die angesagte Designertasche oder die neue Spülmaschine für die WG: mit dem Sparhelfer lassen sich Wünsche ganz einfach teilen und so schneller erfüllen.&lt;/p&gt;&lt;p&gt;Schon jetzt verfügbar für das iPad, Android- und Windows-Tablets. &lt;div class='app-links-section'&gt;&lt;p&gt;&lt;strong&gt;Jetzt kostenlos&lt;/strong&gt; herunterladen:&lt;/p&gt;&lt;ul class='app-links'&gt;&lt;li&gt;&lt;a href='' target='_blank'&gt;&lt;img alt='' src='/client/images/app-store.png'&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='' target='_blank'&gt;&lt;img alt='' src='/client/images/google-play.png'&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='' target='_blank'&gt;&lt;img alt='' src='/client/images/windows-store.png'&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;/p&gt;",
+      "images": [{
+        "imageUrl": "/client/images/article-image.png",
+        "altText": "Test image",
+        "imageLink": "",
+        "imageLinkType": "image"
+      }],
+      "buttons": []
+    }, {
+      "id": 16569,
+      "headline": "Einfach, intelligent, komfortabel - und hört aufs Wort",
+      "type": "text-image",
+      "text": "&lt;p&gt;Mit dem Postbank Finanzassistenten ... &lt;/p&gt;&lt;p&gt;Verwalten Sie Ihr Bugdget&lt;/a&gt;",
+      "images": [{
+        "imageUrl": "/client/images/article-image.png",
+        "altText": "Test image",
+        "imageLink": "/client/images/videogular.mp4",
+        "imageLinkType": "audio"
+      }],
+      "buttons": []
+    }, {
+      "id": 16565,
+      "headline": "Einfach, intelligent, komfortabel - und hört aufs Wort",
+      "type": "text-image",
+      "text": "&lt;p&gt;Mit dem Postbank Finanzassistenten ... &lt;/p&gt;&lt;p&gt;Verwalten Sie Ihr Bugdget&lt;/a&gt;",
+      "images": [{
+        "imageUrl": "/client/images/article-image.png",
+        "altText": "Test image",
+        "imageLink": "/client/images/videogular.mp4",
+        "imageLinkType": "video"
+      }],
+      "buttons": []
+    }, {
+      "id": 9533,
+      "headline": "",
+      "type": "text-image",
+      "text": "&lt;p&gt;Mit dem Postbank &lt;a href=&quot;http://google.com&quot;&gt;Finanzassistenten&lt;/a&gt; ... &lt;/p&gt;",
+      "images": [],
+      "buttons": []
+    }, {
+      "id": 1133,
+      "headline": "",
+      "type": "linklist",
+      "text": "&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;http://google.com&quot;&gt;Finanzassitenten Text Link&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://google.com&quot;&gt;Testlink 2&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;",
+      "images": [],
+      "buttons": []
+    }, {
+      "id": 1433,
+      "headline": "",
+      "type": "text-image",
+      "text": "&lt;ul&gt;&lt;li&gt;Verwalten Sie Ihr Budget ganz bequem&lt;/li&gt;&lt;li&gt;Erkennen Sie Liquiditäts und Spielräume&lt;/li&gt;&lt;li&gt;Führen Sie &lt;a href=&quot;http://google.com&quot;&gt;Überweisungen (möglicher inline Link)&lt;/a&gt; bequem von&lt;/li&gt;&lt;/ul&gt;",
+      "images": [],
+      "buttons": []
+    }, {
+      "id": 1453,
+      "headline": "",
+      "type": "quote",
+      "text": "Mit dem brand Postbank Finanzassitenten behalten Sie leicht den Überblick",
+      "images": [],
+      "buttons": []
+    }, {
+      "id": 1455,
+      "headline": "",
+      "type": "text-image",
+      "text": "",
+      "images": [{
+        "imageUrl": "/client/images/article-image.png",
+        "altText": "Test image",
+        "imageLink": "",
+        "imageLinkType": "slider"
+      }, {
+        "imageUrl": "/client/images/article-image.png",
+        "altText": "Test image",
+        "imageLink": "",
+        "imageLinkType": "slider"
+      }, {
+        "imageUrl": "/client/images/article-image.png",
+        "altText": "Test image",
+        "imageLink": "",
+        "imageLinkType": "slider"
+      }],
+      "buttons": [{
+        "url": "http://google.com",
+        "type": "blue",
+        "caption": "Button Text"
+      }, {
+        "url": "http://google.com",
+        "type": "rss",
+        "caption": "Button Text"
+      }]
+    }],
+    "socialMedia": 1,
+    "relatedArticlesIds": [
+      1,
+      2
+    ],
+    "searchtags": [
+      "sparen",
+      "Finanzassistent",
+      "Sparhelfer"
+    ]
+  },
+  {
+    "id": 4,
+    "created": "2015-07-15T23:44:32+02:00",
+    "author": {
+      "authorId" : 1,
+      "authorImageUrl": "client/images/avatar_team.png",
+      "authorName": "Team Innovation",
+      "authorImageAltText": "Author image"
+    },
+    "category": {
+      "id": 3,
+      "name": "Kategorie Immobilen"
+    },
+    "articleImage": {
+      "imageUrl": "client/images/article-mobile-1.jpg",
+      "altText": "Test image"
+    },
+    "headline": "4 Immobilien",
+    "subheadline": "Test Immobilien Artikel ID 4",
+    "textEditor": "&lt;p&gt;Immobilien - Lorem ipsum dolores.&lt;/p&gt;",
+    "content": [{
+      "id": 14562,
+      "type": "text-image",
+      "headline": "",
+      "text": "&lt;p&gt;Gemeinsam macht alles mehr Spaß – jetzt auch das Sparen. Ob die geplante Weltreise, die angesagte Designertasche oder die neue Spülmaschine für die WG: mit dem Sparhelfer lassen sich Wünsche ganz einfach teilen und so schneller erfüllen.&lt;/p&gt;&lt;p&gt;Schon jetzt verfügbar für das iPad, Android- und Windows-Tablets. &lt;div class='app-links-section'&gt;&lt;p&gt;&lt;strong&gt;Jetzt kostenlos&lt;/strong&gt; herunterladen:&lt;/p&gt;&lt;ul class='app-links'&gt;&lt;li&gt;&lt;a href='' target='_blank'&gt;&lt;img alt='' src='/client/images/app-store.png'&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='' target='_blank'&gt;&lt;img alt='' src='/client/images/google-play.png'&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='' target='_blank'&gt;&lt;img alt='' src='/client/images/windows-store.png'&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;/p&gt;",
+      "images": [{
+        "imageUrl": "/client/images/article-image.png",
+        "altText": "Test image",
+        "imageLink": "",
+        "imageLinkType": "image"
+      }],
+      "buttons": []
+    }, {
+      "id": 16569,
+      "headline": "Einfach, intelligent, komfortabel - und hört aufs Wort",
+      "type": "text-image",
+      "text": "&lt;p&gt;Mit dem Postbank Finanzassistenten ... &lt;/p&gt;&lt;p&gt;Verwalten Sie Ihr Bugdget&lt;/a&gt;",
+      "images": [{
+        "imageUrl": "/client/images/article-image.png",
+        "altText": "Test image",
+        "imageLink": "/client/images/videogular.mp4",
+        "imageLinkType": "audio"
+      }],
+      "buttons": []
+    }, {
+      "id": 16565,
+      "headline": "Einfach, intelligent, komfortabel - und hört aufs Wort",
+      "type": "text-image",
+      "text": "&lt;p&gt;Mit dem Postbank Finanzassistenten ... &lt;/p&gt;&lt;p&gt;Verwalten Sie Ihr Bugdget&lt;/a&gt;",
+      "images": [{
+        "imageUrl": "/client/images/article-image.png",
+        "altText": "Test image",
+        "imageLink": "/client/images/videogular.mp4",
+        "imageLinkType": "video"
+      }],
+      "buttons": []
+    }, {
+      "id": 9533,
+      "headline": "",
+      "type": "text-image",
+      "text": "&lt;p&gt;Mit dem Postbank &lt;a href=&quot;http://google.com&quot;&gt;Finanzassistenten&lt;/a&gt; ... &lt;/p&gt;",
+      "images": [],
+      "buttons": []
+    }, {
+      "id": 1133,
+      "headline": "",
+      "type": "linklist",
+      "text": "&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;http://google.com&quot;&gt;Finanzassitenten Text Link&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://google.com&quot;&gt;Testlink 2&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;",
+      "images": [],
+      "buttons": []
+    }, {
+      "id": 1433,
+      "headline": "",
+      "type": "text-image",
+      "text": "&lt;ul&gt;&lt;li&gt;Verwalten Sie Ihr Budget ganz bequem&lt;/li&gt;&lt;li&gt;Erkennen Sie Liquiditäts und Spielräume&lt;/li&gt;&lt;li&gt;Führen Sie &lt;a href=&quot;http://google.com&quot;&gt;Überweisungen (möglicher inline Link)&lt;/a&gt; bequem von&lt;/li&gt;&lt;/ul&gt;",
+      "images": [],
+      "buttons": []
+    }, {
+      "id": 1453,
+      "headline": "",
+      "type": "quote",
+      "text": "Mit dem brand Postbank Finanzassitenten behalten Sie leicht den Überblick",
+      "images": [],
+      "buttons": []
+    }, {
+      "id": 1455,
+      "headline": "",
+      "type": "text-image",
+      "text": "",
+      "images": [{
+        "imageUrl": "/client/images/article-image.png",
+        "altText": "Test image",
+        "imageLink": "",
+        "imageLinkType": "slider"
+      }, {
+        "imageUrl": "/client/images/article-image.png",
+        "altText": "Test image",
+        "imageLink": "",
+        "imageLinkType": "slider"
+      }, {
+        "imageUrl": "/client/images/article-image.png",
+        "altText": "Test image",
+        "imageLink": "",
+        "imageLinkType": "slider"
+      }],
+      "buttons": [{
+        "url": "http://google.com",
+        "type": "blue",
+        "caption": "Button Text"
+      }, {
+        "url": "http://google.com",
+        "type": "rss",
+        "caption": "Button Text"
+      }]
+    }],
+    "socialMedia": 1,
+    "relatedArticlesIds": [
+      1,
+      3
+    ],
+    "searchtags": [
+      "sparen",
+      "Finanzassistent",
+      "Sparhelfer"
+    ]
+  },
+  {
+    "id": 5,
+    "created": "2015-07-15T23:44:32+02:00",
+    "author": {
+      "authorId" : 1,
+      "authorImageUrl": "client/images/avatar_team.png",
+      "authorName": "Team Innovation",
+      "authorImageAltText": "Author image"
+    },
+    "category": {
+      "id": 3,
+      "name": "Kategorie Immobilen"
+    },
+    "articleImage": {
+      "imageUrl": "client/images/article-mobile-1.jpg",
+      "altText": "Test image"
+    },
+    "headline": "Test Artikel 5",
+    "subheadline": "Test Artikel ID 5",
+    "textEditor": "&lt;p&gt;Immobilien - Lorem ipsum dolores.&lt;/p&gt;",
+    "content": [{
+      "id": 14562,
+      "type": "text-image",
+      "headline": "",
+      "text": "&lt;p&gt;Gemeinsam macht alles mehr Spaß – jetzt auch das Sparen. Ob die geplante Weltreise, die angesagte Designertasche oder die neue Spülmaschine für die WG: mit dem Sparhelfer lassen sich Wünsche ganz einfach teilen und so schneller erfüllen.&lt;/p&gt;&lt;p&gt;Schon jetzt verfügbar für das iPad, Android- und Windows-Tablets. &lt;div class='app-links-section'&gt;&lt;p&gt;&lt;strong&gt;Jetzt kostenlos&lt;/strong&gt; herunterladen:&lt;/p&gt;&lt;ul class='app-links'&gt;&lt;li&gt;&lt;a href='' target='_blank'&gt;&lt;img alt='' src='/client/images/app-store.png'&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='' target='_blank'&gt;&lt;img alt='' src='/client/images/google-play.png'&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='' target='_blank'&gt;&lt;img alt='' src='/client/images/windows-store.png'&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;/p&gt;",
+      "images": [{
+        "imageUrl": "/client/images/article-image.png",
+        "altText": "Test image",
+        "imageLink": "",
+        "imageLinkType": "image"
+      }],
+      "buttons": []
+    }, {
+      "id": 16569,
+      "headline": "Einfach, intelligent, komfortabel - und hört aufs Wort",
+      "type": "text-image",
+      "text": "&lt;p&gt;Mit dem Postbank Finanzassistenten ... &lt;/p&gt;&lt;p&gt;Verwalten Sie Ihr Bugdget&lt;/a&gt;",
+      "images": [{
+        "imageUrl": "/client/images/article-image.png",
+        "altText": "Test image",
+        "imageLink": "/client/images/videogular.mp4",
+        "imageLinkType": "audio"
+      }],
+      "buttons": []
+    }, {
+      "id": 16565,
+      "headline": "Einfach, intelligent, komfortabel - und hört aufs Wort",
+      "type": "text-image",
+      "text": "&lt;p&gt;Mit dem Postbank Finanzassistenten ... &lt;/p&gt;&lt;p&gt;Verwalten Sie Ihr Bugdget&lt;/a&gt;",
+      "images": [{
+        "imageUrl": "/client/images/article-image.png",
+        "altText": "Test image",
+        "imageLink": "/client/images/videogular.mp4",
+        "imageLinkType": "video"
+      }],
+      "buttons": []
+    }, {
+      "id": 9533,
+      "headline": "",
+      "type": "text-image",
+      "text": "&lt;p&gt;Mit dem Postbank &lt;a href=&quot;http://google.com&quot;&gt;Finanzassistenten&lt;/a&gt; ... &lt;/p&gt;",
+      "images": [],
+      "buttons": []
+    }, {
+      "id": 1133,
+      "headline": "",
+      "type": "linklist",
+      "text": "&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;http://google.com&quot;&gt;Finanzassitenten Text Link&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://google.com&quot;&gt;Testlink 2&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;",
+      "images": [],
+      "buttons": []
+    }, {
+      "id": 1433,
+      "headline": "",
+      "type": "text-image",
+      "text": "&lt;ul&gt;&lt;li&gt;Verwalten Sie Ihr Budget ganz bequem&lt;/li&gt;&lt;li&gt;Erkennen Sie Liquiditäts und Spielräume&lt;/li&gt;&lt;li&gt;Führen Sie &lt;a href=&quot;http://google.com&quot;&gt;Überweisungen (möglicher inline Link)&lt;/a&gt; bequem von&lt;/li&gt;&lt;/ul&gt;",
+      "images": [],
+      "buttons": []
+    }, {
+      "id": 1453,
+      "headline": "",
+      "type": "quote",
+      "text": "Mit dem brand Postbank Finanzassitenten behalten Sie leicht den Überblick",
+      "images": [],
+      "buttons": []
+    }, {
+      "id": 1455,
+      "headline": "",
+      "type": "text-image",
+      "text": "",
+      "images": [{
+        "imageUrl": "/client/images/article-image.png",
+        "altText": "Test image",
+        "imageLink": "",
+        "imageLinkType": "slider"
+      }, {
+        "imageUrl": "/client/images/article-image.png",
+        "altText": "Test image",
+        "imageLink": "",
+        "imageLinkType": "slider"
+      }, {
+        "imageUrl": "/client/images/article-image.png",
+        "altText": "Test image",
+        "imageLink": "",
+        "imageLinkType": "slider"
+      }],
+      "buttons": [{
+        "url": "http://google.com",
+        "type": "blue",
+        "caption": "Button Text"
+      }, {
+        "url": "http://google.com",
+        "type": "rss",
+        "caption": "Button Text"
+      }]
+    }],
+    "socialMedia": 1,
+    "relatedArticlesIds": [
+      1,
+      3
+    ],
+    "searchtags": [
+      "sparen",
+      "Finanzassistent",
+      "Sparhelfer"
+    ]
+  },
+  {
+    "id": 6,
+    "created": "2015-07-15T23:44:32+02:00",
+    "author": {
+      "authorId" : 1,
+      "authorImageUrl": "client/images/avatar_team.png",
+      "authorName": "Team Innovation",
+      "authorImageAltText": "Author image"
+    },
+    "category": {
+      "id": 3,
+      "name": "Kategorie Immobilen"
+    },
+    "articleImage": {
+      "imageUrl": "client/images/article-mobile-1.jpg",
+      "altText": "Test image"
+    },
+    "headline": "Test Artikel 6",
+    "subheadline": "Test Artikel ID 6",
+    "textEditor": "&lt;p&gt;Immobilien - Lorem ipsum dolores.&lt;/p&gt;",
+    "content": [{
+      "id": 14562,
+      "type": "text-image",
+      "headline": "",
+      "text": "&lt;p&gt;Gemeinsam macht alles mehr Spaß – jetzt auch das Sparen. Ob die geplante Weltreise, die angesagte Designertasche oder die neue Spülmaschine für die WG: mit dem Sparhelfer lassen sich Wünsche ganz einfach teilen und so schneller erfüllen.&lt;/p&gt;&lt;p&gt;Schon jetzt verfügbar für das iPad, Android- und Windows-Tablets. &lt;div class='app-links-section'&gt;&lt;p&gt;&lt;strong&gt;Jetzt kostenlos&lt;/strong&gt; herunterladen:&lt;/p&gt;&lt;ul class='app-links'&gt;&lt;li&gt;&lt;a href='' target='_blank'&gt;&lt;img alt='' src='/client/images/app-store.png'&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='' target='_blank'&gt;&lt;img alt='' src='/client/images/google-play.png'&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='' target='_blank'&gt;&lt;img alt='' src='/client/images/windows-store.png'&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;/p&gt;",
+      "images": [{
+        "imageUrl": "/client/images/article-image.png",
+        "altText": "Test image",
+        "imageLink": "",
+        "imageLinkType": "image"
+      }],
+      "buttons": []
+    }, {
+      "id": 16569,
+      "headline": "Einfach, intelligent, komfortabel - und hört aufs Wort",
+      "type": "text-image",
+      "text": "&lt;p&gt;Mit dem Postbank Finanzassistenten ... &lt;/p&gt;&lt;p&gt;Verwalten Sie Ihr Bugdget&lt;/a&gt;",
+      "images": [{
+        "imageUrl": "/client/images/article-image.png",
+        "altText": "Test image",
+        "imageLink": "/client/images/videogular.mp4",
+        "imageLinkType": "audio"
+      }],
+      "buttons": []
+    }, {
+      "id": 16565,
+      "headline": "Einfach, intelligent, komfortabel - und hört aufs Wort",
+      "type": "text-image",
+      "text": "&lt;p&gt;Mit dem Postbank Finanzassistenten ... &lt;/p&gt;&lt;p&gt;Verwalten Sie Ihr Bugdget&lt;/a&gt;",
+      "images": [{
+        "imageUrl": "/client/images/article-image.png",
+        "altText": "Test image",
+        "imageLink": "/client/images/videogular.mp4",
+        "imageLinkType": "video"
+      }],
+      "buttons": []
+    }, {
+      "id": 9533,
+      "headline": "",
+      "type": "text-image",
+      "text": "&lt;p&gt;Mit dem Postbank &lt;a href=&quot;http://google.com&quot;&gt;Finanzassistenten&lt;/a&gt; ... &lt;/p&gt;",
+      "images": [],
+      "buttons": []
+    }, {
+      "id": 1133,
+      "headline": "",
+      "type": "linklist",
+      "text": "&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;http://google.com&quot;&gt;Finanzassitenten Text Link&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://google.com&quot;&gt;Testlink 2&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;",
+      "images": [],
+      "buttons": []
+    }, {
+      "id": 1433,
+      "headline": "",
+      "type": "text-image",
+      "text": "&lt;ul&gt;&lt;li&gt;Verwalten Sie Ihr Budget ganz bequem&lt;/li&gt;&lt;li&gt;Erkennen Sie Liquiditäts und Spielräume&lt;/li&gt;&lt;li&gt;Führen Sie &lt;a href=&quot;http://google.com&quot;&gt;Überweisungen (möglicher inline Link)&lt;/a&gt; bequem von&lt;/li&gt;&lt;/ul&gt;",
+      "images": [],
+      "buttons": []
+    }, {
+      "id": 1453,
+      "headline": "",
+      "type": "quote",
+      "text": "Mit dem brand Postbank Finanzassitenten behalten Sie leicht den Überblick",
+      "images": [],
+      "buttons": []
+    }, {
+      "id": 1455,
+      "headline": "",
+      "type": "text-image",
+      "text": "",
+      "images": [{
+        "imageUrl": "/client/images/article-image.png",
+        "altText": "Test image",
+        "imageLink": "",
+        "imageLinkType": "slider"
+      }, {
+        "imageUrl": "/client/images/article-image.png",
+        "altText": "Test image",
+        "imageLink": "",
+        "imageLinkType": "slider"
+      }, {
+        "imageUrl": "/client/images/article-image.png",
+        "altText": "Test image",
+        "imageLink": "",
+        "imageLinkType": "slider"
+      }],
+      "buttons": [{
+        "url": "http://google.com",
+        "type": "blue",
+        "caption": "Button Text"
+      }, {
+        "url": "http://google.com",
+        "type": "rss",
+        "caption": "Button Text"
+      }]
+    }],
+    "socialMedia": 1,
+    "relatedArticlesIds": [
+      1,
+      3
+    ],
+    "searchtags": [
+      "sparen",
+      "Finanzassistent",
+      "Sparhelfer"
+    ]
+  },
+  {
+    "id": 7,
+    "created": "2015-07-15T23:44:32+02:00",
+    "author": {
+      "authorId" : 1,
+      "authorImageUrl": "client/images/avatar_team.png",
+      "authorName": "Team Innovation",
+      "authorImageAltText": "Author image"
+    },
+    "category": {
+      "id": 3,
+      "name": "Kategorie Immobilen"
+    },
+    "articleImage": {
+      "imageUrl": "client/images/article-mobile-1.jpg",
+      "altText": "Test image"
+    },
+    "headline": "Test Artikel 7",
+    "subheadline": "Test Artikel ID 7",
+    "textEditor": "&lt;p&gt;Immobilien - Lorem ipsum dolores.&lt;/p&gt;",
+    "content": [{
+      "id": 14562,
+      "type": "text-image",
+      "headline": "",
+      "text": "&lt;p&gt;Gemeinsam macht alles mehr Spaß – jetzt auch das Sparen. Ob die geplante Weltreise, die angesagte Designertasche oder die neue Spülmaschine für die WG: mit dem Sparhelfer lassen sich Wünsche ganz einfach teilen und so schneller erfüllen.&lt;/p&gt;&lt;p&gt;Schon jetzt verfügbar für das iPad, Android- und Windows-Tablets. &lt;div class='app-links-section'&gt;&lt;p&gt;&lt;strong&gt;Jetzt kostenlos&lt;/strong&gt; herunterladen:&lt;/p&gt;&lt;ul class='app-links'&gt;&lt;li&gt;&lt;a href='' target='_blank'&gt;&lt;img alt='' src='/client/images/app-store.png'&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='' target='_blank'&gt;&lt;img alt='' src='/client/images/google-play.png'&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='' target='_blank'&gt;&lt;img alt='' src='/client/images/windows-store.png'&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;/p&gt;",
+      "images": [{
+        "imageUrl": "/client/images/article-image.png",
+        "altText": "Test image",
+        "imageLink": "",
+        "imageLinkType": "image"
+      }],
+      "buttons": []
+    }, {
+      "id": 16569,
+      "headline": "Einfach, intelligent, komfortabel - und hört aufs Wort",
+      "type": "text-image",
+      "text": "&lt;p&gt;Mit dem Postbank Finanzassistenten ... &lt;/p&gt;&lt;p&gt;Verwalten Sie Ihr Bugdget&lt;/a&gt;",
+      "images": [{
+        "imageUrl": "/client/images/article-image.png",
+        "altText": "Test image",
+        "imageLink": "/client/images/videogular.mp4",
+        "imageLinkType": "audio"
+      }],
+      "buttons": []
+    }, {
+      "id": 16565,
+      "headline": "Einfach, intelligent, komfortabel - und hört aufs Wort",
+      "type": "text-image",
+      "text": "&lt;p&gt;Mit dem Postbank Finanzassistenten ... &lt;/p&gt;&lt;p&gt;Verwalten Sie Ihr Bugdget&lt;/a&gt;",
+      "images": [{
+        "imageUrl": "/client/images/article-image.png",
+        "altText": "Test image",
+        "imageLink": "/client/images/videogular.mp4",
+        "imageLinkType": "video"
+      }],
+      "buttons": []
+    }, {
+      "id": 9533,
+      "headline": "",
+      "type": "text-image",
+      "text": "&lt;p&gt;Mit dem Postbank &lt;a href=&quot;http://google.com&quot;&gt;Finanzassistenten&lt;/a&gt; ... &lt;/p&gt;",
+      "images": [],
+      "buttons": []
+    }, {
+      "id": 1133,
+      "headline": "",
+      "type": "linklist",
+      "text": "&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;http://google.com&quot;&gt;Finanzassitenten Text Link&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://google.com&quot;&gt;Testlink 2&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;",
+      "images": [],
+      "buttons": []
+    }, {
+      "id": 1433,
+      "headline": "",
+      "type": "text-image",
+      "text": "&lt;ul&gt;&lt;li&gt;Verwalten Sie Ihr Budget ganz bequem&lt;/li&gt;&lt;li&gt;Erkennen Sie Liquiditäts und Spielräume&lt;/li&gt;&lt;li&gt;Führen Sie &lt;a href=&quot;http://google.com&quot;&gt;Überweisungen (möglicher inline Link)&lt;/a&gt; bequem von&lt;/li&gt;&lt;/ul&gt;",
+      "images": [],
+      "buttons": []
+    }, {
+      "id": 1453,
+      "headline": "",
+      "type": "quote",
+      "text": "Mit dem brand Postbank Finanzassitenten behalten Sie leicht den Überblick",
+      "images": [],
+      "buttons": []
+    }, {
+      "id": 1455,
+      "headline": "",
+      "type": "text-image",
+      "text": "",
+      "images": [{
+        "imageUrl": "/client/images/article-image.png",
+        "altText": "Test image",
+        "imageLink": "",
+        "imageLinkType": "slider"
+      }, {
+        "imageUrl": "/client/images/article-image.png",
+        "altText": "Test image",
+        "imageLink": "",
+        "imageLinkType": "slider"
+      }, {
+        "imageUrl": "/client/images/article-image.png",
+        "altText": "Test image",
+        "imageLink": "",
+        "imageLinkType": "slider"
+      }],
+      "buttons": [{
+        "url": "http://google.com",
+        "type": "blue",
+        "caption": "Button Text"
+      }, {
+        "url": "http://google.com",
+        "type": "rss",
+        "caption": "Button Text"
+      }]
+    }],
+    "socialMedia": 1,
+    "relatedArticlesIds": [
+      1,
+      3
+    ],
+    "searchtags": [
+      "sparen",
+      "Finanzassistent",
+      "Sparhelfer"
+    ]
+  },
+  {
+    "id": 8,
+    "created": "2015-07-15T23:44:32+02:00",
+    "author": {
+      "authorId" : 1,
+      "authorImageUrl": "client/images/avatar_team.png",
+      "authorName": "Team Innovation",
+      "authorImageAltText": "Author image"
+    },
+    "category": {
+      "id": 3,
+      "name": "Kategorie Immobilen"
+    },
+    "articleImage": {
+      "imageUrl": "client/images/article-mobile-1.jpg",
+      "altText": "Test image"
+    },
+    "headline": "Test Artikel 8",
+    "subheadline": "Test Artikel ID 8",
+    "textEditor": "&lt;p&gt;Immobilien - Lorem ipsum dolores.&lt;/p&gt;",
+    "content": [{
+      "id": 14562,
+      "type": "text-image",
+      "headline": "",
+      "text": "&lt;p&gt;Gemeinsam macht alles mehr Spaß – jetzt auch das Sparen. Ob die geplante Weltreise, die angesagte Designertasche oder die neue Spülmaschine für die WG: mit dem Sparhelfer lassen sich Wünsche ganz einfach teilen und so schneller erfüllen.&lt;/p&gt;&lt;p&gt;Schon jetzt verfügbar für das iPad, Android- und Windows-Tablets. &lt;div class='app-links-section'&gt;&lt;p&gt;&lt;strong&gt;Jetzt kostenlos&lt;/strong&gt; herunterladen:&lt;/p&gt;&lt;ul class='app-links'&gt;&lt;li&gt;&lt;a href='' target='_blank'&gt;&lt;img alt='' src='/client/images/app-store.png'&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='' target='_blank'&gt;&lt;img alt='' src='/client/images/google-play.png'&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='' target='_blank'&gt;&lt;img alt='' src='/client/images/windows-store.png'&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;/p&gt;",
+      "images": [{
+        "imageUrl": "/client/images/article-image.png",
+        "altText": "Test image",
+        "imageLink": "",
+        "imageLinkType": "image"
+      }],
+      "buttons": []
+    }, {
+      "id": 16569,
+      "headline": "Einfach, intelligent, komfortabel - und hört aufs Wort",
+      "type": "text-image",
+      "text": "&lt;p&gt;Mit dem Postbank Finanzassistenten ... &lt;/p&gt;&lt;p&gt;Verwalten Sie Ihr Bugdget&lt;/a&gt;",
+      "images": [{
+        "imageUrl": "/client/images/article-image.png",
+        "altText": "Test image",
+        "imageLink": "/client/images/videogular.mp4",
+        "imageLinkType": "audio"
+      }],
+      "buttons": []
+    }, {
+      "id": 16565,
+      "headline": "Einfach, intelligent, komfortabel - und hört aufs Wort",
+      "type": "text-image",
+      "text": "&lt;p&gt;Mit dem Postbank Finanzassistenten ... &lt;/p&gt;&lt;p&gt;Verwalten Sie Ihr Bugdget&lt;/a&gt;",
+      "images": [{
+        "imageUrl": "/client/images/article-image.png",
+        "altText": "Test image",
+        "imageLink": "/client/images/videogular.mp4",
+        "imageLinkType": "video"
+      }],
+      "buttons": []
+    }, {
+      "id": 9533,
+      "headline": "",
+      "type": "text-image",
+      "text": "&lt;p&gt;Mit dem Postbank &lt;a href=&quot;http://google.com&quot;&gt;Finanzassistenten&lt;/a&gt; ... &lt;/p&gt;",
+      "images": [],
+      "buttons": []
+    }, {
+      "id": 1133,
+      "headline": "",
+      "type": "linklist",
+      "text": "&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;http://google.com&quot;&gt;Finanzassitenten Text Link&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://google.com&quot;&gt;Testlink 2&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;",
+      "images": [],
+      "buttons": []
+    }, {
+      "id": 1433,
+      "headline": "",
+      "type": "text-image",
+      "text": "&lt;ul&gt;&lt;li&gt;Verwalten Sie Ihr Budget ganz bequem&lt;/li&gt;&lt;li&gt;Erkennen Sie Liquiditäts und Spielräume&lt;/li&gt;&lt;li&gt;Führen Sie &lt;a href=&quot;http://google.com&quot;&gt;Überweisungen (möglicher inline Link)&lt;/a&gt; bequem von&lt;/li&gt;&lt;/ul&gt;",
+      "images": [],
+      "buttons": []
+    }, {
+      "id": 1453,
+      "headline": "",
+      "type": "quote",
+      "text": "Mit dem brand Postbank Finanzassitenten behalten Sie leicht den Überblick",
+      "images": [],
+      "buttons": []
+    }, {
+      "id": 1455,
+      "headline": "",
+      "type": "text-image",
+      "text": "",
+      "images": [{
+        "imageUrl": "/client/images/article-image.png",
+        "altText": "Test image",
+        "imageLink": "",
+        "imageLinkType": "slider"
+      }, {
+        "imageUrl": "/client/images/article-image.png",
+        "altText": "Test image",
+        "imageLink": "",
+        "imageLinkType": "slider"
+      }, {
+        "imageUrl": "/client/images/article-image.png",
+        "altText": "Test image",
+        "imageLink": "",
+        "imageLinkType": "slider"
+      }],
+      "buttons": [{
+        "url": "http://google.com",
+        "type": "blue",
+        "caption": "Button Text"
+      }, {
+        "url": "http://google.com",
+        "type": "rss",
+        "caption": "Button Text"
+      }]
+    }],
+    "socialMedia": 1,
+    "relatedArticlesIds": [
+      1,
+      3
+    ],
+    "searchtags": [
+      "sparen",
+      "Finanzassistent",
+      "Sparhelfer"
+    ]
+  },
+  {
+    "id": 9,
+    "created": "2015-07-15T23:44:32+02:00",
+    "author": {
+      "authorId" : 1,
+      "authorImageUrl": "client/images/avatar_team.png",
+      "authorName": "Team Innovation",
+      "authorImageAltText": "Author image"
+    },
+    "category": {
+      "id": 3,
+      "name": "Kategorie Immobilen"
+    },
+    "articleImage": {
+      "imageUrl": "client/images/article-mobile-1.jpg",
+      "altText": "Test image"
+    },
+    "headline": "Test Artikel 9",
+    "subheadline": "Test Artikel ID 9",
+    "textEditor": "&lt;p&gt;Immobilien - Lorem ipsum dolores.&lt;/p&gt;",
+    "content": [{
+      "id": 14562,
+      "type": "text-image",
+      "headline": "",
+      "text": "&lt;p&gt;Gemeinsam macht alles mehr Spaß – jetzt auch das Sparen. Ob die geplante Weltreise, die angesagte Designertasche oder die neue Spülmaschine für die WG: mit dem Sparhelfer lassen sich Wünsche ganz einfach teilen und so schneller erfüllen.&lt;/p&gt;&lt;p&gt;Schon jetzt verfügbar für das iPad, Android- und Windows-Tablets. &lt;div class='app-links-section'&gt;&lt;p&gt;&lt;strong&gt;Jetzt kostenlos&lt;/strong&gt; herunterladen:&lt;/p&gt;&lt;ul class='app-links'&gt;&lt;li&gt;&lt;a href='' target='_blank'&gt;&lt;img alt='' src='/client/images/app-store.png'&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='' target='_blank'&gt;&lt;img alt='' src='/client/images/google-play.png'&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='' target='_blank'&gt;&lt;img alt='' src='/client/images/windows-store.png'&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;/p&gt;",
+      "images": [{
+        "imageUrl": "/client/images/article-image.png",
+        "altText": "Test image",
+        "imageLink": "",
+        "imageLinkType": "image"
+      }],
+      "buttons": []
+    }, {
+      "id": 16569,
+      "headline": "Einfach, intelligent, komfortabel - und hört aufs Wort",
+      "type": "text-image",
+      "text": "&lt;p&gt;Mit dem Postbank Finanzassistenten ... &lt;/p&gt;&lt;p&gt;Verwalten Sie Ihr Bugdget&lt;/a&gt;",
+      "images": [{
+        "imageUrl": "/client/images/article-image.png",
+        "altText": "Test image",
+        "imageLink": "/client/images/videogular.mp4",
+        "imageLinkType": "audio"
+      }],
+      "buttons": []
+    }, {
+      "id": 16565,
+      "headline": "Einfach, intelligent, komfortabel - und hört aufs Wort",
+      "type": "text-image",
+      "text": "&lt;p&gt;Mit dem Postbank Finanzassistenten ... &lt;/p&gt;&lt;p&gt;Verwalten Sie Ihr Bugdget&lt;/a&gt;",
+      "images": [{
+        "imageUrl": "/client/images/article-image.png",
+        "altText": "Test image",
+        "imageLink": "/client/images/videogular.mp4",
+        "imageLinkType": "video"
+      }],
+      "buttons": []
+    }, {
+      "id": 9533,
+      "headline": "",
+      "type": "text-image",
+      "text": "&lt;p&gt;Mit dem Postbank &lt;a href=&quot;http://google.com&quot;&gt;Finanzassistenten&lt;/a&gt; ... &lt;/p&gt;",
+      "images": [],
+      "buttons": []
+    }, {
+      "id": 1133,
+      "headline": "",
+      "type": "linklist",
+      "text": "&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;http://google.com&quot;&gt;Finanzassitenten Text Link&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://google.com&quot;&gt;Testlink 2&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;",
+      "images": [],
+      "buttons": []
+    }, {
+      "id": 1433,
+      "headline": "",
+      "type": "text-image",
+      "text": "&lt;ul&gt;&lt;li&gt;Verwalten Sie Ihr Budget ganz bequem&lt;/li&gt;&lt;li&gt;Erkennen Sie Liquiditäts und Spielräume&lt;/li&gt;&lt;li&gt;Führen Sie &lt;a href=&quot;http://google.com&quot;&gt;Überweisungen (möglicher inline Link)&lt;/a&gt; bequem von&lt;/li&gt;&lt;/ul&gt;",
+      "images": [],
+      "buttons": []
+    }, {
+      "id": 1453,
+      "headline": "",
+      "type": "quote",
+      "text": "Mit dem brand Postbank Finanzassitenten behalten Sie leicht den Überblick",
+      "images": [],
+      "buttons": []
+    }, {
+      "id": 1455,
+      "headline": "",
+      "type": "text-image",
+      "text": "",
+      "images": [{
+        "imageUrl": "/client/images/article-image.png",
+        "altText": "Test image",
+        "imageLink": "",
+        "imageLinkType": "slider"
+      }, {
+        "imageUrl": "/client/images/article-image.png",
+        "altText": "Test image",
+        "imageLink": "",
+        "imageLinkType": "slider"
+      }, {
+        "imageUrl": "/client/images/article-image.png",
+        "altText": "Test image",
+        "imageLink": "",
+        "imageLinkType": "slider"
+      }],
+      "buttons": [{
+        "url": "http://google.com",
+        "type": "blue",
+        "caption": "Button Text"
+      }, {
+        "url": "http://google.com",
+        "type": "rss",
+        "caption": "Button Text"
+      }]
+    }],
+    "socialMedia": 1,
+    "relatedArticlesIds": [
+      1,
+      3
+    ],
+    "searchtags": [
+      "sparen",
+      "Finanzassistent",
+      "Sparhelfer"
+    ]
+  },
+  {
+    "id": 10,
+    "created": "2015-07-15T23:44:32+02:00",
+    "author": {
+      "authorId" : 1,
+      "authorImageUrl": "client/images/avatar_team.png",
+      "authorName": "Team Innovation",
+      "authorImageAltText": "Author image"
+    },
+    "category": {
+      "id": 3,
+      "name": "Kategorie Immobilen"
+    },
+    "articleImage": {
+      "imageUrl": "client/images/article-mobile-1.jpg",
+      "altText": "Test Artikel 10"
+    },
+    "headline": "Test Artikel 10",
+    "subheadline": "Test Artikel ID 10",
+    "textEditor": "&lt;p&gt;Immobilien - Lorem ipsum dolores.&lt;/p&gt;",
+    "content": [{
+      "id": 14562,
+      "type": "text-image",
+      "headline": "",
+      "text": "&lt;p&gt;Gemeinsam macht alles mehr Spaß – jetzt auch das Sparen. Ob die geplante Weltreise, die angesagte Designertasche oder die neue Spülmaschine für die WG: mit dem Sparhelfer lassen sich Wünsche ganz einfach teilen und so schneller erfüllen.&lt;/p&gt;&lt;p&gt;Schon jetzt verfügbar für das iPad, Android- und Windows-Tablets. &lt;div class='app-links-section'&gt;&lt;p&gt;&lt;strong&gt;Jetzt kostenlos&lt;/strong&gt; herunterladen:&lt;/p&gt;&lt;ul class='app-links'&gt;&lt;li&gt;&lt;a href='' target='_blank'&gt;&lt;img alt='' src='/client/images/app-store.png'&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='' target='_blank'&gt;&lt;img alt='' src='/client/images/google-play.png'&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='' target='_blank'&gt;&lt;img alt='' src='/client/images/windows-store.png'&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;/p&gt;",
+      "images": [{
+        "imageUrl": "/client/images/article-image.png",
+        "altText": "Test image",
+        "imageLink": "",
+        "imageLinkType": "image"
+      }],
+      "buttons": []
+    }, {
+      "id": 16569,
+      "headline": "Einfach, intelligent, komfortabel - und hört aufs Wort",
+      "type": "text-image",
+      "text": "&lt;p&gt;Mit dem Postbank Finanzassistenten ... &lt;/p&gt;&lt;p&gt;Verwalten Sie Ihr Bugdget&lt;/a&gt;",
+      "images": [{
+        "imageUrl": "/client/images/article-image.png",
+        "altText": "Test image",
+        "imageLink": "/client/images/videogular.mp4",
+        "imageLinkType": "audio"
+      }],
+      "buttons": []
+    }, {
+      "id": 16565,
+      "headline": "Einfach, intelligent, komfortabel - und hört aufs Wort",
+      "type": "text-image",
+      "text": "&lt;p&gt;Mit dem Postbank Finanzassistenten ... &lt;/p&gt;&lt;p&gt;Verwalten Sie Ihr Bugdget&lt;/a&gt;",
+      "images": [{
+        "imageUrl": "/client/images/article-image.png",
+        "altText": "Test image",
+        "imageLink": "/client/images/videogular.mp4",
+        "imageLinkType": "video"
+      }],
+      "buttons": []
+    }, {
+      "id": 9533,
+      "headline": "",
+      "type": "text-image",
+      "text": "&lt;p&gt;Mit dem Postbank &lt;a href=&quot;http://google.com&quot;&gt;Finanzassistenten&lt;/a&gt; ... &lt;/p&gt;",
+      "images": [],
+      "buttons": []
+    }, {
+      "id": 1133,
+      "headline": "",
+      "type": "linklist",
+      "text": "&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;http://google.com&quot;&gt;Finanzassitenten Text Link&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://google.com&quot;&gt;Testlink 2&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;",
+      "images": [],
+      "buttons": []
+    }, {
+      "id": 1433,
+      "headline": "",
+      "type": "text-image",
+      "text": "&lt;ul&gt;&lt;li&gt;Verwalten Sie Ihr Budget ganz bequem&lt;/li&gt;&lt;li&gt;Erkennen Sie Liquiditäts und Spielräume&lt;/li&gt;&lt;li&gt;Führen Sie &lt;a href=&quot;http://google.com&quot;&gt;Überweisungen (möglicher inline Link)&lt;/a&gt; bequem von&lt;/li&gt;&lt;/ul&gt;",
+      "images": [],
+      "buttons": []
+    }, {
+      "id": 1453,
+      "headline": "",
+      "type": "quote",
+      "text": "Mit dem brand Postbank Finanzassitenten behalten Sie leicht den Überblick",
+      "images": [],
+      "buttons": []
+    }, {
+      "id": 1455,
+      "headline": "",
+      "type": "text-image",
+      "text": "",
+      "images": [{
+        "imageUrl": "/client/images/article-image.png",
+        "altText": "Test image",
+        "imageLink": "",
+        "imageLinkType": "slider"
+      }, {
+        "imageUrl": "/client/images/article-image.png",
+        "altText": "Test image",
+        "imageLink": "",
+        "imageLinkType": "slider"
+      }, {
+        "imageUrl": "/client/images/article-image.png",
+        "altText": "Test image",
+        "imageLink": "",
+        "imageLinkType": "slider"
+      }],
+      "buttons": [{
+        "url": "http://google.com",
+        "type": "blue",
+        "caption": "Button Text"
+      }, {
+        "url": "http://google.com",
+        "type": "rss",
+        "caption": "Button Text"
+      }]
+    }],
+    "socialMedia": 1,
+    "relatedArticlesIds": [
+      1,
+      3
+    ],
+    "searchtags": [
+      "sparen",
+      "Finanzassistent",
+      "Sparhelfer"
+    ]
+  }]

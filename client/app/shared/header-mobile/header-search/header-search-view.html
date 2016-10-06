@@ -1,0 +1,13 @@
+<div class="search-form"  ng-class="{'open': searchOpen, 'hide-overlay': hideOverlay}">
+    <form ng-action="search()">
+        <span class="icon-suche" ng-click="open()"></span>
+        <div class="search">
+            <div class="search-submit">
+                <span class="icon-suche"></span>
+                <input type="submit" value="">
+            </div>
+            <input class="search-input" ng-model="text" placeholder="Suchbegriff eingeben" type="text" value="" name="search" id="search">
+            <span class="icon-close-fill" ng-click="clear()"></span>
+        </div>
+    </form>
+</div>

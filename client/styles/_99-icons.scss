@@ -1,0 +1,90 @@
+.icon-filter{
+  // @include sprite($filter);
+  display: inline-block;
+  vertical-align: text-bottom;
+  margin: 0 8px 0 0;
+}
+&.filter-open{
+  // .icon-filter{
+  //   @include sprite($filter-open);
+
+  //   &.active {
+  //     @include sprite($filter-open);
+  //   }
+  //   &.selected {
+  //     @include sprite($filter-checked);
+  //   }
+  // }
+}
+&.filter-open{
+  .filter-text{
+    margin: 0 !important;
+    position: relative;
+    font-size: 14px !important;
+    top: -2px;
+    &.active {
+      color: #333;
+    }
+  }
+}
+
+.icon-close{
+  background: $color-base;
+}
+
+.icon-top{
+  @include sprite($scroll-top);
+  display: inline-block;
+}
+
+.icon-arrow-left{
+  @include sprite($arrow-left);
+  display: inline-block;
+}
+
+.icon-close{
+  position: relative;
+  display: inline-block;
+  &:after{
+    content: '';
+    @include positionCenter();
+    @include sprite($close);
+  }
+}
+
+.icon-rss{
+  // @include sprite($rss);
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 1% 0 0;
+}
+
+.icon-overview{
+  @include sprite($overview);
+  display: inline-block;
+  vertical-align: text-bottom;
+}
+
+.icon-article-close{
+  @include sprite($article-close);
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.icon-left{
+  &:after{
+    content: '';
+    @include positionCenter();
+    @include sprite($arrow-top);
+  }
+}
+
+.close-detail{
+  @include sprite($close-detail);
+  text-indent: -9999px;
+  overflow: hidden;
+  right: 30px;
+  top: 30px;
+  @include positionAfter();
+  cursor: pointer;
+}

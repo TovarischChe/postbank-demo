@@ -1,0 +1,105 @@
+@font-face {
+  font-family: 'FrutigerLTStd-Light';
+  src: url('#{$path-fonts}/FrutigerLTStd-Light.eot'); 
+  src: url('#{$path-fonts}/FrutigerLTStd-Light.eot?#iefix') format('embedded-opentype'), 
+       url('#{$path-fonts}/FrutigerLTStd-Light.otf')  format('opentype'),
+       url('#{$path-fonts}/FrutigerLTStd-Light.woff') format('woff'),
+       url('#{$path-fonts}/FrutigerLTStd-Light.ttf')  format('truetype'),
+       url('#{$path-fonts}/FrutigerLTStd-Light.svg#FrutigerLTStd-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family:'FrutigerLTStd-Roman';
+  src: url('#{$path-fonts}/FrutigerLTStd-Roman_gdi.eot');
+  src: url('#{$path-fonts}/FrutigerLTStd-Roman_gdi.eot?#iefix') format('embedded-opentype'),
+       url('#{$path-fonts}/FrutigerLTStd-Roman_gdi.woff') format('woff'),
+       url('#{$path-fonts}/FrutigerLTStd-Roman_gdi.ttf') format('truetype'),
+       url('#{$path-fonts}/FrutigerLTStd-Roman_gdi.svg#FrutigerLTStd-Roman') format('svg');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'FrutigerRegularCondensed';
+  src: url('#{$path-fonts}/42015032410340004614.woff') format('woff'), 
+       url('#{$path-fonts}/42015032410340005516.ttf') format('truetype'), 
+       url('#{$path-fonts}/42015032410340006718.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FrutigerLTStd-Bold';
+  src: url('#{$path-fonts}/FrutigerLTStd-Bold.eot');
+  src: url('#{$path-fonts}/FrutigerLTStd-Bold.eot?#iefix') format('embedded-opentype'), 
+       url('#{$path-fonts}/FrutigerLTStd-Bold.otf')  format('opentype'),
+       url('#{$path-fonts}/FrutigerLTStd-Bold.woff') format('woff'),
+       url('#{$path-fonts}/FrutigerLTStd-Bold.ttf')  format('truetype'),
+       url('#{$path-fonts}/FrutigerLTStd-Bold.svg#FrutigerLTStd-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FrutigerLTStd-Black';
+  src: url('#{$path-fonts}/frutigerltstd-black.eot');
+  src: url('#{$path-fonts}/frutigerltstd-black.eot?#iefix') format('embedded-opentype'), 
+       url('#{$path-fonts}/frutigerltstd-black.otf')  format('opentype'),
+       url('#{$path-fonts}/frutigerltstd-black.woff') format('woff'),
+       url('#{$path-fonts}/frutigerltstd-black.ttf')  format('truetype'),
+       url('#{$path-fonts}/frutigerltstd-black.svg#frutigerltstd-black') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FrutigerLTStd-LightItalic';
+  src: url('#{$path-fonts}/frutigerltstd-lightitalic.eot');
+  src: url('#{$path-fonts}/frutigerltstd-lightitalic.eot?#iefix') format('embedded-opentype'), 
+       url('#{$path-fonts}/frutigerltstd-lightitalic.otf')  format('opentype'),
+       url('#{$path-fonts}/frutigerltstd-lightitalic.woff') format('woff'),
+       url('#{$path-fonts}/frutigerltstd-lightitalic.ttf')  format('truetype'),
+       url('#{$path-fonts}/frutigerltstd-lightitalic.svg#frutigerltstd-lightitalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FrutigerLTStd-Italic';
+  src: url('#{$path-fonts}/frutigerltstd-italic.eot'); 
+  src: url('#{$path-fonts}/frutigerltstd-italic.eot?#iefix') format('embedded-opentype'), 
+       url('#{$path-fonts}/frutigerltstd-italic.otf')  format('opentype'),
+       url('#{$path-fonts}/frutigerltstd-italic.woff') format('woff'),
+       url('#{$path-fonts}/frutigerltstd-italic.ttf')  format('truetype'),
+       url('#{$path-fonts}/frutigerltstd-italic.svg#frutigerltstd-italic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FrutigerLTStd-BoldItalic';
+  src: url('#{$path-fonts}/frutigerltstd-bolditalic.eot');
+  src: url('#{$path-fonts}/frutigerltstd-bolditalic.eot?#iefix') format('embedded-opentype'), 
+       url('#{$path-fonts}/frutigerltstd-bolditalic.otf')  format('opentype'),
+       url('#{$path-fonts}/frutigerltstd-bolditalic.woff') format('woff'),
+       url('#{$path-fonts}/frutigerltstd-bolditalic.ttf')  format('truetype'),
+       url('#{$path-fonts}/frutigerltstd-bolditalic.svg#frutigerltstd-bolditalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FrutigerLTStd-Blacktalic';
+  src: url('#{$path-fonts}/frutigerltstd-blackitalic.eot');
+  src: url('#{$path-fonts}/frutigerltstd-blackitalic.eot?#iefix') format('embedded-opentype'), 
+       url('#{$path-fonts}/frutigerltstd-blackitalic.otf')  format('opentype'),
+       url('#{$path-fonts}/frutigerltstd-blackitalic.woff') format('woff'),
+       url('#{$path-fonts}/frutigerltstd-blackitalic.ttf')  format('truetype'),
+       url('#{$path-fonts}/frutigerltstd-blackitalic.svg#frutigerltstd-blackitalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+

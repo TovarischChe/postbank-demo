@@ -1,0 +1,168 @@
+.container-fluid{
+  max-width: 980px;
+}
+
+.box-content {
+  padding:$spacing;
+
+  @media #{$m-mobileTablet-up} {
+    padding: $spacing * 1.5;
+  }
+
+  @media #{$m-tabletDektop-up} {
+    padding: $spacing * 2 5%;
+  }
+}
+
+.section{
+  margin-bottom: $spacing * 2;
+}
+
+.img-wrap{
+  img{
+    max-width: 100%;
+  }
+}
+
+//store-list
+
+.app-links{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: table;
+  width: 100%;
+
+  li{
+    display: table-cell;
+    padding: 0 ($spacing /2);
+
+    &:first-child{
+      padding-left: 0;
+    }
+    &:last-child{
+      padding-right: 0;
+    }
+
+    a{
+
+    }
+    img{
+      max-width: 100%;
+    }
+  }
+}
+
+//social-links
+.social-links{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+
+  li{
+    margin: 7px 0 0;
+    line-height: 1;
+    
+    a{
+      display: block;
+      text-align: center;
+      padding: 7px ($spacing /2);
+      border: 1px solid transparent;
+
+      &:after{
+        content: '';
+        display: inline-block;
+        vertical-align: top;
+      }
+
+      &:hover{
+        color: $color-white;
+      }
+    }
+
+    &.facebook{
+      a{
+        background: $facebook-bg;
+        &:after{
+          @include sprite($facebook);
+        }
+        &:hover{
+          background: $color-white;
+          border-color: $facebook-bg;
+          &:after{
+            @include sprite($facebook-hover);
+          }
+        }
+      }
+    }
+    &.twitter{
+      a{
+        background: $twitter-bg;
+        &:hover{
+          background: $color-white;
+          border-color: $twitter-bg;
+          &:after{
+            @include sprite($twitter-hover);
+          }
+        }
+        &:after{
+          @include sprite($twitter);
+        }
+      }
+    }
+    &.pinterest{
+      a{
+        background: $pinterest-bg;
+        &:hover{
+          background: $color-white;
+          border-color: $pinterest-bg;
+          &:after{
+            @include sprite($pinterest-hover);
+          }
+        }
+        &:after{
+          @include sprite($pinterest);
+        }
+      }
+    }
+    &.instagram{
+      a{
+        background: $instagram-bg;
+        &:hover{
+          background: $color-white;
+          border-color: $instagram-bg;
+          &:after{
+            @include sprite($instagram-hover);
+          }
+        }
+        &:after{
+          @include sprite($instagram);
+        }
+      }
+    }
+    &.mail{
+      a{
+        background: $mail-bg;
+        &:hover{
+          background: $color-white;
+          border-color: $mail-bg;
+          &:after{
+            @include sprite($mail-hover);
+          }
+        }
+        &:after{
+          @include sprite($mail);
+        }
+      }
+    }
+
+    float: left;
+    width: 20%;
+    border-left: 2px solid #fff;
+    a{
+      height: 36px;
+      padding: 8px ($spacing /2);
+    }
+  }
+}

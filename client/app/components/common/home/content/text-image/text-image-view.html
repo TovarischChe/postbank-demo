@@ -1,0 +1,86 @@
+<div>
+  <h3 ng-show="data[index].headline">{{data[index].headline}}</h3>
+  <div ng-bind-html="data[index].text|supertrusthtml"></div>
+
+  <figure class="image-overlay" ng-if="data[index].images.length == 1 && data[index].images[0].imageLinkType != 'video'">
+    <img alt="{{ data[index].images[0].altText }}" ng-src="{{ data[index].images[0].imageUrl }}">
+  </figure>
+
+  <!-- Video -->
+  <figure ng-if="data[index].images.length > 0 && data[index].images[0].imageLinkType == 'video'">
+    <videogular class="videogular-container video section">
+      <vg-media vg-src="config.sources"></vg-media>
+
+      <vg-controls>
+        <vg-play-pause-button></vg-play-pause-button>
+        <vg-scrub-bar>
+          <vg-scrub-bar-current-time></vg-scrub-bar-current-time>
+        </vg-scrub-bar>
+        <vg-volume>
+          <vg-mute-button></vg-mute-button>
+          <vg-h-volume-bar></vg-h-volume-bar>
+        </vg-volume>
+      </vg-controls>
+      <vg-overlay-play></vg-overlay-play>
+      <vg-poster vg-url='data[index].images[0].imageUrl'></vg-poster>
+    </videogular>
+
+  </figure>
+
+  <!-- Audio -->
+  <figure ng-if="data[index].images.length === 1 && data[index].images[0].imageLinkType == 'audio'">
+    <videogular class="videogular-container audio section">
+      <vg-media vg-src="config.sources" vg-type="audio"></vg-media>
+
+      <vg-controls>
+        <vg-play-pause-button></vg-play-pause-button>
+        <vg-scrub-bar>
+          <vg-scrub-bar-current-time></vg-scrub-bar-current-time>
+        </vg-scrub-bar>
+        <vg-volume>
+          <vg-mute-button></vg-mute-button>
+          <vg-h-volume-bar></vg-h-volume-bar>
+        </vg-volume>
+      </vg-controls>
+    </videogular>
+  </figure>
+
+  <!-- Image slider -->
+  <div class="vertical-slider"  ng-if="sliderSettings.direction == 'vertical'">
+    <figure ng-if="data[index].images.length > 1 && data[index].images[0].imageLinkType == 'slider'">
+      <div class="image-slider">
+          <ks-swiper-container loop="false" show-nav-buttons="false" direction="vertical" slides-per-view="1" pagination-clickable="false">
+              <ks-swiper-slide class="swiper-slide" ng-repeat="slide in data[index].images">
+                  <div class="img-wrap"><img alt="{{slide.altText}}" ng-src="{{slide.imageUrl}}"/></div>
+              </ks-swiper-slide>
+          </ks-swiper-container>
+      </div>
+    </figure>
+  </div>
+  
+  <div class="horizontal-slider" ng-if="sliderSettings.direction == 'horizontal'">
+    <figure ng-if="data[index].images.length > 1 && data[index].images[0].imageLinkType == 'slider'">
+      <div class="image-slider">
+          <ks-swiper-container loop="false" show-nav-buttons="true" direction="horizontal" slides-per-view="1" pagination-clickable="false">
+              <ks-swiper-slide class="swiper-slide" ng-repeat="slide in data[index].images">
+                  <div class="img-wrap"><img alt="{{slide.altText}}" ng-src="{{slide.imageUrl}}"/></div>
+              </ks-swiper-slide>
+          </ks-swiper-container>
+      </div>
+    </figure>
+  </div>
+
+
+  <!-- Buttons -->
+  <div class="section button-group" ng-if="data[index].buttons.length > 0">
+    <span class="btn-wrapper" ng-repeat="button in data[index].buttons">
+      <span ng-switch="button.type">
+        <a class="btn btn-invert" href="{{button.url}}" ng-switch-when="rss">
+          <i class="icon-rss"></i>
+          <span>{{ button.caption }}</span>
+        </a>
+        <a class="btn btn-primary" href="{{button.url}}" ng-switch-default>{{ button.caption }}</a>
+      </span>
+    </span>
+  </div>
+</div>

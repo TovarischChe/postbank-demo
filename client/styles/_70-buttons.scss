@@ -1,0 +1,59 @@
+.btn {
+  display: inline-block;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+  white-space: nowrap;
+  padding: 6px 16px;
+  
+    @media (max-width: #{$vp-desktop-max}) and (min-width: #{$vp-desktop-middle}){
+        font-size: 18px;
+      }
+    @media (min-width: #{$vp-desktop-max}){
+        font-size: 21px;
+      }
+
+  a {
+    display: inline-block;
+    padding: 0 32px;
+    transition: all .3s ease-in-out;
+  }
+
+  span{
+    display: inline-block;
+    vertical-align: middle;
+  }
+  &.full-width{
+    width: 100%;
+  }
+}
+.btn.btn-primary{
+  background: $color-base;
+  border: 1px solid $color-base;
+  color: white;
+
+  &:hover{
+    color: $color-white;
+    background: $color-button-hover;
+    border: 1px solid $color-button-hover;
+  }
+}
+
+.btn-invert{
+  border: 1px solid $color-base;
+  color: $color-base;
+  background: $color-white;
+
+  &:hover{
+    color: $color-white !important;
+    background: $color-base;
+    .icon-rss{
+      // @include sprite($rss-hover);
+    }
+  }
+}
+
+.button-group{
+  .btn{
+    margin-right: $spacing;
+  }
+}

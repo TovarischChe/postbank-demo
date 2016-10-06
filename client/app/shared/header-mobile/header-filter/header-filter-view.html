@@ -1,0 +1,35 @@
+<div class="filter-form">
+  <div class="filter-collapse" ng-class="{'filter-open': !isCollapsed}">
+    <div class="filter-holder">
+      <button type="button" class="navbar-toggle collapsed"
+          ng-click="isCollapsed = !isCollapsed"
+          data-toggle="collapse"
+          data-target="#navbar-filter"
+          aria-expanded="false"
+          aria-controls="navbar"
+          ng-show="!selected">
+          <span class="icon-filter"></span>Themen filtern
+
+          <button type="button" class="navbar-toggle collapsed"
+                  ng-click="clearFilter()"
+                  ng-show="selected">
+              <span class="icon-filter selected"></span>Themen filtern
+      </button>
+      <span class="icon-close" ng-hide="isCollapsed" ng-click="isCollapsed = !isCollapsed"></span>
+    </div>
+    <div class="overlay"></div>
+  </div>
+
+  <div id="navbar-filter" class="navbar-collapse collapsed" collapse="isCollapsed">
+    <ul class="filter-list box-content">
+      <li ng-repeat="category in categories">
+        <a href="" ng-click="filterArticles(category)">
+          <figure>
+              <img ng-src="{{ category[0].articleImage.imageUrl }}" alt="{{ category[0].articleImage.altText }}">
+          </figure>
+          <span>{{ category[0].category.name }}</span>
+        </a>
+      </li>
+    </ul>
+  </div><!--/.nav-collapse -->
+</div>

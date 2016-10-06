@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Finanzassistent Finanzassistent",
+    "categoryImage": {
+      "imageUrl": "client/images/theme-filter-img.jpg",
+      "altText": "Test image"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Sparen",
+    "categoryImage": {
+      "imageUrl": "client/images/theme-filter-img.jpg",
+      "altText": "Test image"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Finanzassistent",
+    "categoryImage": {
+      "imageUrl": "client/images/theme-filter-img.jpg",
+      "altText": "Test image"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Finanzassistent",
+    "categoryImage": {
+      "imageUrl": "client/images/theme-filter-img.jpg",
+      "altText": "Test image"
+    }
+  },
+  {
+    "id": 1,
+    "name": "Finanzassistent",
+    "categoryImage": {
+      "imageUrl": "client/images/theme-filter-img.jpg",
+      "altText": "Test image"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Finanzassistent",
+    "categoryImage": {
+      "imageUrl": "client/images/theme-filter-img.jpg",
+      "altText": "Test image"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Finanzassistent",
+    "categoryImage": {
+      "imageUrl": "client/images/theme-filter-img.jpg",
+      "altText": "Test image"
+    }
+  },
+  {
+    "id": 1,
+    "name": "Finanzassistent",
+    "categoryImage": {
+      "imageUrl": "client/images/theme-filter-img.jpg",
+      "altText": "Test image"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Finanzassistent",
+    "categoryImage": {
+      "imageUrl": "client/images/theme-filter-img.jpg",
+      "altText": "Test image"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Finanzassistent",
+    "categoryImage": {
+      "imageUrl": "client/images/theme-filter-img.jpg",
+      "altText": "Test image"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Finanzassistent",
+    "categoryImage": {
+      "imageUrl": "client/images/theme-filter-img.jpg",
+      "altText": "Test image"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Finanzassistent",
+    "categoryImage": {
+      "imageUrl": "client/images/theme-filter-img.jpg",
+      "altText": "Test image"
+    }
+  }
+]
